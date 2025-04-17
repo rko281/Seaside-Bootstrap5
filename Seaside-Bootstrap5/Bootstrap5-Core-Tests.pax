@@ -1,0 +1,2137 @@
+﻿| package |
+package := Package name: 'Bootstrap5-Core-Tests'.
+package paxVersion: 1;
+	basicComment: ''.
+
+package methodNames
+	add: #SBSAbstractCanvasBrushTest -> #builder;
+	add: #SBSBackgroundColorTests -> #testDangerBackground;
+	add: #SBSBackgroundColorTests -> #testDarkBackground;
+	add: #SBSBackgroundColorTests -> #testInfoBackground;
+	add: #SBSBackgroundColorTests -> #testLightBackground;
+	add: #SBSBackgroundColorTests -> #testPrimaryBackground;
+	add: #SBSBackgroundColorTests -> #testSecondaryBackground;
+	add: #SBSBackgroundColorTests -> #testSuccessBackground;
+	add: #SBSBackgroundColorTests -> #testWarningBackground;
+	add: #SBSBackgroundColorTests -> #testWhiteBackground;
+	add: #SBSCanvasBrushTest -> #testAccordion;
+	add: #SBSCanvasBrushTest -> #testAccordionBody;
+	add: #SBSCanvasBrushTest -> #testAccordionBodyWithContent;
+	add: #SBSCanvasBrushTest -> #testAccordionButton;
+	add: #SBSCanvasBrushTest -> #testAccordionButtonWithContent;
+	add: #SBSCanvasBrushTest -> #testAccordionCollapse;
+	add: #SBSCanvasBrushTest -> #testAccordionCollapseWithContent;
+	add: #SBSCanvasBrushTest -> #testAccordionHeading;
+	add: #SBSCanvasBrushTest -> #testAccordionHeadingWithContent;
+	add: #SBSCanvasBrushTest -> #testAccordionItem;
+	add: #SBSCanvasBrushTest -> #testAccordionItemWithContent;
+	add: #SBSCanvasBrushTest -> #testAccordionWithContent;
+	add: #SBSCanvasBrushTest -> #testActionBadge;
+	add: #SBSCanvasBrushTest -> #testActionBadgeDanger;
+	add: #SBSCanvasBrushTest -> #testActionBadgeDark;
+	add: #SBSCanvasBrushTest -> #testActionBadgeInfo;
+	add: #SBSCanvasBrushTest -> #testActionBadgeLight;
+	add: #SBSCanvasBrushTest -> #testActionBadgePrimary;
+	add: #SBSCanvasBrushTest -> #testActionBadgeSecondary;
+	add: #SBSCanvasBrushTest -> #testActionBadgeSuccess;
+	add: #SBSCanvasBrushTest -> #testActionBadgeWarning;
+	add: #SBSCanvasBrushTest -> #testActionBadgeWithContent;
+	add: #SBSCanvasBrushTest -> #testAlert;
+	add: #SBSCanvasBrushTest -> #testAlertDanger;
+	add: #SBSCanvasBrushTest -> #testAlertDark;
+	add: #SBSCanvasBrushTest -> #testAlertDismissible;
+	add: #SBSCanvasBrushTest -> #testAlertHeading;
+	add: #SBSCanvasBrushTest -> #testAlertHeadingWithContent;
+	add: #SBSCanvasBrushTest -> #testAlertInfo;
+	add: #SBSCanvasBrushTest -> #testAlertLight;
+	add: #SBSCanvasBrushTest -> #testAlertLink;
+	add: #SBSCanvasBrushTest -> #testAlertLinkWithContent;
+	add: #SBSCanvasBrushTest -> #testAlertPrimary;
+	add: #SBSCanvasBrushTest -> #testAlertSecondary;
+	add: #SBSCanvasBrushTest -> #testAlertSuccess;
+	add: #SBSCanvasBrushTest -> #testAlertWarning;
+	add: #SBSCanvasBrushTest -> #testAlertWithContent;
+	add: #SBSCanvasBrushTest -> #testBadge;
+	add: #SBSCanvasBrushTest -> #testBadgeDanger;
+	add: #SBSCanvasBrushTest -> #testBadgeDark;
+	add: #SBSCanvasBrushTest -> #testBadgeInfo;
+	add: #SBSCanvasBrushTest -> #testBadgeLight;
+	add: #SBSCanvasBrushTest -> #testBadgePrimary;
+	add: #SBSCanvasBrushTest -> #testBadgeSecondary;
+	add: #SBSCanvasBrushTest -> #testBadgeSuccess;
+	add: #SBSCanvasBrushTest -> #testBadgeWarning;
+	add: #SBSCanvasBrushTest -> #testBadgeWithContent;
+	add: #SBSCanvasBrushTest -> #testBreadcrumb;
+	add: #SBSCanvasBrushTest -> #testBreadcrumbItem;
+	add: #SBSCanvasBrushTest -> #testBreadcrumbItemWithContent;
+	add: #SBSCanvasBrushTest -> #testBreadcrumbWithContent;
+	add: #SBSCanvasBrushTest -> #testButton;
+	add: #SBSCanvasBrushTest -> #testButtonActive;
+	add: #SBSCanvasBrushTest -> #testButtonBlock;
+	add: #SBSCanvasBrushTest -> #testButtonDanger;
+	add: #SBSCanvasBrushTest -> #testButtonDark;
+	add: #SBSCanvasBrushTest -> #testButtonDataTarget;
+	add: #SBSCanvasBrushTest -> #testButtonDataToggle;
+	add: #SBSCanvasBrushTest -> #testButtonDisabled;
+	add: #SBSCanvasBrushTest -> #testButtonDropdown;
+	add: #SBSCanvasBrushTest -> #testButtonDropdownSplitted;
+	add: #SBSCanvasBrushTest -> #testButtonGroup;
+	add: #SBSCanvasBrushTest -> #testButtonGroupAriaLabel;
+	add: #SBSCanvasBrushTest -> #testButtonGroupGroupRole;
+	add: #SBSCanvasBrushTest -> #testButtonGroupLarge;
+	add: #SBSCanvasBrushTest -> #testButtonGroupSmall;
+	add: #SBSCanvasBrushTest -> #testButtonGroupToolbarRole;
+	add: #SBSCanvasBrushTest -> #testButtonGroupVertical;
+	add: #SBSCanvasBrushTest -> #testButtonGroupVerticalWithContent;
+	add: #SBSCanvasBrushTest -> #testButtonGroupWithContent;
+	add: #SBSCanvasBrushTest -> #testButtonInfo;
+	add: #SBSCanvasBrushTest -> #testButtonLarge;
+	add: #SBSCanvasBrushTest -> #testButtonLight;
+	add: #SBSCanvasBrushTest -> #testButtonLink;
+	add: #SBSCanvasBrushTest -> #testButtonPrimary;
+	add: #SBSCanvasBrushTest -> #testButtonSecondary;
+	add: #SBSCanvasBrushTest -> #testButtonSmall;
+	add: #SBSCanvasBrushTest -> #testButtonSuccess;
+	add: #SBSCanvasBrushTest -> #testButtonToolbar;
+	add: #SBSCanvasBrushTest -> #testButtonToolbarWithContent;
+	add: #SBSCanvasBrushTest -> #testButtonWarning;
+	add: #SBSCanvasBrushTest -> #testButtonWithContent;
+	add: #SBSCanvasBrushTest -> #testCard;
+	add: #SBSCanvasBrushTest -> #testCardBody;
+	add: #SBSCanvasBrushTest -> #testCardBodyWithContent;
+	add: #SBSCanvasBrushTest -> #testCardColumns;
+	add: #SBSCanvasBrushTest -> #testCardColumnsWithContent;
+	add: #SBSCanvasBrushTest -> #testCardDeck;
+	add: #SBSCanvasBrushTest -> #testCardDeckWithContent;
+	add: #SBSCanvasBrushTest -> #testCardDirectCardBody;
+	add: #SBSCanvasBrushTest -> #testCardDirectCardBodyWithContent;
+	add: #SBSCanvasBrushTest -> #testCardFooter;
+	add: #SBSCanvasBrushTest -> #testCardFooterWithContent;
+	add: #SBSCanvasBrushTest -> #testCardGroup;
+	add: #SBSCanvasBrushTest -> #testCardGroupWithContent;
+	add: #SBSCanvasBrushTest -> #testCardHeader;
+	add: #SBSCanvasBrushTest -> #testCardHeaderWithContent;
+	add: #SBSCanvasBrushTest -> #testCardImage;
+	add: #SBSCanvasBrushTest -> #testCardImageBottom;
+	add: #SBSCanvasBrushTest -> #testCardImageOverlay;
+	add: #SBSCanvasBrushTest -> #testCardImageOverlayWithContent;
+	add: #SBSCanvasBrushTest -> #testCardLink;
+	add: #SBSCanvasBrushTest -> #testCardLinkWithContent;
+	add: #SBSCanvasBrushTest -> #testCardSubtitle;
+	add: #SBSCanvasBrushTest -> #testCardSubtitleWithContent;
+	add: #SBSCanvasBrushTest -> #testCardText;
+	add: #SBSCanvasBrushTest -> #testCardTextWithContent;
+	add: #SBSCanvasBrushTest -> #testCardTitle;
+	add: #SBSCanvasBrushTest -> #testCardTitleWithContent;
+	add: #SBSCanvasBrushTest -> #testCardWithContent;
+	add: #SBSCanvasBrushTest -> #testCarousel;
+	add: #SBSCanvasBrushTest -> #testCarouselAutoplay;
+	add: #SBSCanvasBrushTest -> #testCarouselControlNext;
+	add: #SBSCanvasBrushTest -> #testCarouselControlNextWithContent;
+	add: #SBSCanvasBrushTest -> #testCarouselControlPrevious;
+	add: #SBSCanvasBrushTest -> #testCarouselControlPreviousWithContent;
+	add: #SBSCanvasBrushTest -> #testCarouselInner;
+	add: #SBSCanvasBrushTest -> #testCarouselInnerWithContent;
+	add: #SBSCanvasBrushTest -> #testCarouselItem;
+	add: #SBSCanvasBrushTest -> #testCarouselItemWithContent;
+	add: #SBSCanvasBrushTest -> #testCarouselWithContent;
+	add: #SBSCanvasBrushTest -> #testCloseButton;
+	add: #SBSCanvasBrushTest -> #testCloseButtonWithContent;
+	add: #SBSCanvasBrushTest -> #testCollapse;
+	add: #SBSCanvasBrushTest -> #testCollapseShow;
+	add: #SBSCanvasBrushTest -> #testCollapseWithContent;
+	add: #SBSCanvasBrushTest -> #testColumn;
+	add: #SBSCanvasBrushTest -> #testColumnExtraLargeSize;
+	add: #SBSCanvasBrushTest -> #testColumnExtraLargeVariableWidth;
+	add: #SBSCanvasBrushTest -> #testColumnExtraSmallSize;
+	add: #SBSCanvasBrushTest -> #testColumnLargeSize;
+	add: #SBSCanvasBrushTest -> #testColumnLargeVariableWidth;
+	add: #SBSCanvasBrushTest -> #testColumnMediumSize;
+	add: #SBSCanvasBrushTest -> #testColumnMediumVariableWidth;
+	add: #SBSCanvasBrushTest -> #testColumnSmallSize;
+	add: #SBSCanvasBrushTest -> #testColumnSmallVariableWidth;
+	add: #SBSCanvasBrushTest -> #testColumnVariableWidth;
+	add: #SBSCanvasBrushTest -> #testColumnWithContent;
+	add: #SBSCanvasBrushTest -> #testContainer;
+	add: #SBSCanvasBrushTest -> #testContainerFluid;
+	add: #SBSCanvasBrushTest -> #testContainerFluidWithContent;
+	add: #SBSCanvasBrushTest -> #testContainerWithContent;
+	add: #SBSCanvasBrushTest -> #testDisplayHeading;
+	add: #SBSCanvasBrushTest -> #testDropdown;
+	add: #SBSCanvasBrushTest -> #testDropdownDivider;
+	add: #SBSCanvasBrushTest -> #testDropdownDropLeft;
+	add: #SBSCanvasBrushTest -> #testDropdownDropRight;
+	add: #SBSCanvasBrushTest -> #testDropdownHeader;
+	add: #SBSCanvasBrushTest -> #testDropdownHeaderWithContent;
+	add: #SBSCanvasBrushTest -> #testDropdownItem;
+	add: #SBSCanvasBrushTest -> #testDropdownItemActive;
+	add: #SBSCanvasBrushTest -> #testDropdownItemDisabled;
+	add: #SBSCanvasBrushTest -> #testDropdownItemWithContent;
+	add: #SBSCanvasBrushTest -> #testDropdownMenu;
+	add: #SBSCanvasBrushTest -> #testDropdownMenuDropRight;
+	add: #SBSCanvasBrushTest -> #testDropdownShow;
+	add: #SBSCanvasBrushTest -> #testDropdownWithContent;
+	add: #SBSCanvasBrushTest -> #testDropup;
+	add: #SBSCanvasBrushTest -> #testDropupWithContent;
+	add: #SBSCanvasBrushTest -> #testEqualWidthColumn;
+	add: #SBSCanvasBrushTest -> #testEqualWidthColumnsOnMultipleRows;
+	add: #SBSCanvasBrushTest -> #testEqualWidthColumnWithContent;
+	add: #SBSCanvasBrushTest -> #testFontStylingOfHeading;
+	add: #SBSCanvasBrushTest -> #testFormCheckbox;
+	add: #SBSCanvasBrushTest -> #testFormCheckboxInline;
+	add: #SBSCanvasBrushTest -> #testFormCheckboxInlineWithContent;
+	add: #SBSCanvasBrushTest -> #testFormCheckboxWithContent;
+	add: #SBSCanvasBrushTest -> #testFormCheckLabel;
+	add: #SBSCanvasBrushTest -> #testFormCheckLabelWithContent;
+	add: #SBSCanvasBrushTest -> #testFormControl;
+	add: #SBSCanvasBrushTest -> #testFormControlOnSelect;
+	add: #SBSCanvasBrushTest -> #testFormControlOnTextArea;
+	add: #SBSCanvasBrushTest -> #testFormFileUpload;
+	add: #SBSCanvasBrushTest -> #testFormGroup;
+	add: #SBSCanvasBrushTest -> #testFormGroupCheck;
+	add: #SBSCanvasBrushTest -> #testFormGroupWithContent;
+	add: #SBSCanvasBrushTest -> #testFormInline;
+	add: #SBSCanvasBrushTest -> #testFormMultiSelect;
+	add: #SBSCanvasBrushTest -> #testFormMultiSelectWithContent;
+	add: #SBSCanvasBrushTest -> #testFormPasswordInput;
+	add: #SBSCanvasBrushTest -> #testFormPasswordInputWithContent;
+	add: #SBSCanvasBrushTest -> #testFormPlainTextInput;
+	add: #SBSCanvasBrushTest -> #testFormRadiobutton;
+	add: #SBSCanvasBrushTest -> #testFormRangeInput;
+	add: #SBSCanvasBrushTest -> #testFormSelect;
+	add: #SBSCanvasBrushTest -> #testFormSelectWithContent;
+	add: #SBSCanvasBrushTest -> #testFormTextArea;
+	add: #SBSCanvasBrushTest -> #testFormTextAreaWithContent;
+	add: #SBSCanvasBrushTest -> #testFormTextInput;
+	add: #SBSCanvasBrushTest -> #testFormTextInputWithContent;
+	add: #SBSCanvasBrushTest -> #testImageCentered;
+	add: #SBSCanvasBrushTest -> #testImageCircle;
+	add: #SBSCanvasBrushTest -> #testImageFloatLeft;
+	add: #SBSCanvasBrushTest -> #testImageFloatRight;
+	add: #SBSCanvasBrushTest -> #testImageFluid;
+	add: #SBSCanvasBrushTest -> #testImageRounded;
+	add: #SBSCanvasBrushTest -> #testImageThumbnail;
+	add: #SBSCanvasBrushTest -> #testInputGroup;
+	add: #SBSCanvasBrushTest -> #testInputGroupAppend;
+	add: #SBSCanvasBrushTest -> #testInputGroupAppendWithContent;
+	add: #SBSCanvasBrushTest -> #testInputGroupLarge;
+	add: #SBSCanvasBrushTest -> #testInputGroupPrepend;
+	add: #SBSCanvasBrushTest -> #testInputGroupPrependWithContent;
+	add: #SBSCanvasBrushTest -> #testInputGroupSmall;
+	add: #SBSCanvasBrushTest -> #testInputGroupText;
+	add: #SBSCanvasBrushTest -> #testInputGroupTextWithContent;
+	add: #SBSCanvasBrushTest -> #testInputGroupWithContent;
+	add: #SBSCanvasBrushTest -> #testJumbotron;
+	add: #SBSCanvasBrushTest -> #testJumbotronWithContent;
+	add: #SBSCanvasBrushTest -> #testListGroup;
+	add: #SBSCanvasBrushTest -> #testListGroupFlush;
+	add: #SBSCanvasBrushTest -> #testListGroupHorizontal;
+	add: #SBSCanvasBrushTest -> #testListGroupHorizontalLarge;
+	add: #SBSCanvasBrushTest -> #testListGroupHorizontalMedium;
+	add: #SBSCanvasBrushTest -> #testListGroupHorizontalSmall;
+	add: #SBSCanvasBrushTest -> #testListGroupHorizontalVeryLarge;
+	add: #SBSCanvasBrushTest -> #testListGroupItem;
+	add: #SBSCanvasBrushTest -> #testListGroupItemActive;
+	add: #SBSCanvasBrushTest -> #testListGroupItemDanger;
+	add: #SBSCanvasBrushTest -> #testListGroupItemDark;
+	add: #SBSCanvasBrushTest -> #testListGroupItemDisabled;
+	add: #SBSCanvasBrushTest -> #testListGroupItemFlexFill;
+	add: #SBSCanvasBrushTest -> #testListGroupItemInfo;
+	add: #SBSCanvasBrushTest -> #testListGroupItemLight;
+	add: #SBSCanvasBrushTest -> #testListGroupItemPrimary;
+	add: #SBSCanvasBrushTest -> #testListGroupItemSecondary;
+	add: #SBSCanvasBrushTest -> #testListGroupItemSuccess;
+	add: #SBSCanvasBrushTest -> #testListGroupItemWarning;
+	add: #SBSCanvasBrushTest -> #testListGroupItemWithContent;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItem;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemActive;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemDanger;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemDark;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemDisabled;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemInfo;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemLight;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemPrimary;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemSecondary;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemSuccess;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemWarning;
+	add: #SBSCanvasBrushTest -> #testListGroupLinkedItemWithContent;
+	add: #SBSCanvasBrushTest -> #testListGroupRemoveBorders;
+	add: #SBSCanvasBrushTest -> #testListGroupWithContent;
+	add: #SBSCanvasBrushTest -> #testMarginBottom;
+	add: #SBSCanvasBrushTest -> #testMarginLeft;
+	add: #SBSCanvasBrushTest -> #testMarginLeftAndRight;
+	add: #SBSCanvasBrushTest -> #testMarginRight;
+	add: #SBSCanvasBrushTest -> #testMarginTop;
+	add: #SBSCanvasBrushTest -> #testMarginTopAndBottom;
+	add: #SBSCanvasBrushTest -> #testModal;
+	add: #SBSCanvasBrushTest -> #testModalBody;
+	add: #SBSCanvasBrushTest -> #testModalBodyWithContent;
+	add: #SBSCanvasBrushTest -> #testModalCloseButton;
+	add: #SBSCanvasBrushTest -> #testModalContent;
+	add: #SBSCanvasBrushTest -> #testModalContentWithContent;
+	add: #SBSCanvasBrushTest -> #testModalDialog;
+	add: #SBSCanvasBrushTest -> #testModalDialogCentered;
+	add: #SBSCanvasBrushTest -> #testModalDialogWithContent;
+	add: #SBSCanvasBrushTest -> #testModalFade;
+	add: #SBSCanvasBrushTest -> #testModalFooter;
+	add: #SBSCanvasBrushTest -> #testModalFooterWithContent;
+	add: #SBSCanvasBrushTest -> #testModalHeader;
+	add: #SBSCanvasBrushTest -> #testModalHeaderWithContent;
+	add: #SBSCanvasBrushTest -> #testModalTitle;
+	add: #SBSCanvasBrushTest -> #testModalTitleWithContent;
+	add: #SBSCanvasBrushTest -> #testModalWithContent;
+	add: #SBSCanvasBrushTest -> #testNav;
+	add: #SBSCanvasBrushTest -> #testNavigation;
+	add: #SBSCanvasBrushTest -> #testNavigationBar;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundColor;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundColorString;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundDanger;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundDark;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundInfo;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundLight;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundPrimary;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundSuccess;
+	add: #SBSCanvasBrushTest -> #testNavigationBarBackgroundWarning;
+	add: #SBSCanvasBrushTest -> #testNavigationBarCollapse;
+	add: #SBSCanvasBrushTest -> #testNavigationBarCollapseWithContent;
+	add: #SBSCanvasBrushTest -> #testNavigationBarDark;
+	add: #SBSCanvasBrushTest -> #testNavigationBarExpandExtraLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationBarExpandLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationBarExpandMiddle;
+	add: #SBSCanvasBrushTest -> #testNavigationBarExpandSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationBarLight;
+	add: #SBSCanvasBrushTest -> #testNavigationBarNavigation;
+	add: #SBSCanvasBrushTest -> #testNavigationBarNavigationWithContent;
+	add: #SBSCanvasBrushTest -> #testNavigationBarToggler;
+	add: #SBSCanvasBrushTest -> #testNavigationBarTogglerButtonType;
+	add: #SBSCanvasBrushTest -> #testNavigationBarTogglerCollapse;
+	add: #SBSCanvasBrushTest -> #testNavigationBarTogglerDataTarget;
+	add: #SBSCanvasBrushTest -> #testNavigationBarTogglerIcon;
+	add: #SBSCanvasBrushTest -> #testNavigationBarTogglerWithContent;
+	add: #SBSCanvasBrushTest -> #testNavigationBarWithContent;
+	add: #SBSCanvasBrushTest -> #testNavigationBreadcrumb;
+	add: #SBSCanvasBrushTest -> #testNavigationFlex;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumn;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnLargeReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnMedium;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnMediumReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnSmallReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnVeryLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexColumnVeryLargeReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexInline;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexLargeInline;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexMedium;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexMediumInline;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRow;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowLargeReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowMedium;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowMediumReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowSmallReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowVeryLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexRowVeryLargeReverse;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexSmallInline;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexVeryLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationFlexVeryLargeInline;
+	add: #SBSCanvasBrushTest -> #testNavigationItem;
+	add: #SBSCanvasBrushTest -> #testNavigationItemActive;
+	add: #SBSCanvasBrushTest -> #testNavigationItemDropdown;
+	add: #SBSCanvasBrushTest -> #testNavigationItemWithContent;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentAround;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentAroundLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentAroundMedium;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentAroundSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentAroundVeryLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentBetween;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentBetweenLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentBetweenMedium;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentBetweenSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentBetweenVeryLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentCenter;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentCenterLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentCenterMedium;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentCenterSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentCenterVeryLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentEnd;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentEndLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentEndMedium;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentEndSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentEndVeryLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentStart;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentStartLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentStartMedium;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentStartSmall;
+	add: #SBSCanvasBrushTest -> #testNavigationJustifyContentStartVeryLarge;
+	add: #SBSCanvasBrushTest -> #testNavigationLink;
+	add: #SBSCanvasBrushTest -> #testNavigationLinkActive;
+	add: #SBSCanvasBrushTest -> #testNavigationLinkDisabled;
+	add: #SBSCanvasBrushTest -> #testNavigationLinkDropdownToggle;
+	add: #SBSCanvasBrushTest -> #testNavigationLinkWithContent;
+	add: #SBSCanvasBrushTest -> #testNavigationList;
+	add: #SBSCanvasBrushTest -> #testNavigationListWithContent;
+	add: #SBSCanvasBrushTest -> #testNavigationWithContent;
+	add: #SBSCanvasBrushTest -> #testNavWithContent;
+	add: #SBSCanvasBrushTest -> #testOutlineButton;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonBlock;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonDanger;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonDark;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonInfo;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonLarge;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonLight;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonPrimary;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonSecondary;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonSmall;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonSuccess;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonWarning;
+	add: #SBSCanvasBrushTest -> #testOutlineButtonWithContent;
+	add: #SBSCanvasBrushTest -> #testPaddingBottom;
+	add: #SBSCanvasBrushTest -> #testPaddingLeft;
+	add: #SBSCanvasBrushTest -> #testPaddingLeftAndRight;
+	add: #SBSCanvasBrushTest -> #testPaddingRight;
+	add: #SBSCanvasBrushTest -> #testPaddingTop;
+	add: #SBSCanvasBrushTest -> #testPaddingTopAndBottom;
+	add: #SBSCanvasBrushTest -> #testPageItem;
+	add: #SBSCanvasBrushTest -> #testPageItemActive;
+	add: #SBSCanvasBrushTest -> #testPageItemDisabled;
+	add: #SBSCanvasBrushTest -> #testPageItemWithContent;
+	add: #SBSCanvasBrushTest -> #testPageLink;
+	add: #SBSCanvasBrushTest -> #testPageLinkWithContent;
+	add: #SBSCanvasBrushTest -> #testPagination;
+	add: #SBSCanvasBrushTest -> #testPaginationLarge;
+	add: #SBSCanvasBrushTest -> #testPaginationSmall;
+	add: #SBSCanvasBrushTest -> #testPaginationWithContent;
+	add: #SBSCanvasBrushTest -> #testProgress;
+	add: #SBSCanvasBrushTest -> #testProgressBar;
+	add: #SBSCanvasBrushTest -> #testProgressBarStriped;
+	add: #SBSCanvasBrushTest -> #testProgressBarValueNow;
+	add: #SBSCanvasBrushTest -> #testProgressBarWithContent;
+	add: #SBSCanvasBrushTest -> #testProgressWithContent;
+	add: #SBSCanvasBrushTest -> #testRow;
+	add: #SBSCanvasBrushTest -> #testRowNoGutters;
+	add: #SBSCanvasBrushTest -> #testRowWithContent;
+	add: #SBSCanvasBrushTest -> #testTabContent;
+	add: #SBSCanvasBrushTest -> #testTabContentWithContent;
+	add: #SBSCanvasBrushTest -> #testTextMuted;
+	add: #SBSDeploymentLibraryTest -> #testIncludeBootstrapMinCSSByDefault;
+	add: #SBSDevelopmentLibraryTest -> #testIncludeBootstrapCSSByDefault;
+	add: #SBSRootComponentTest -> #testCanBeRoot;
+	add: #SBSTColumnSelfAlignmentTest -> #testEqualWidthColumnAlignCenter;
+	add: #SBSTColumnSelfAlignmentTest -> #testEqualWidthColumnAlignEnd;
+	add: #SBSTColumnSelfAlignmentTest -> #testEqualWidthColumnAlignStart;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentAround;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentAroundLarge;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentAroundMedium;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentAroundSmall;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentAroundVeryLarge;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentBetween;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentBetweenLarge;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentBetweenMedium;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentBetweenSmall;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentBetweenVeryLarge;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentCenter;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentCenterLarge;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentCenterMedium;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentCenterSmall;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentCenterVeryLarge;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentEnd;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentEndLarge;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentEndMedium;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentEndSmall;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentEndVeryLarge;
+	add: #SBSTContentJustificationTest -> #testRowJustifyContentStart;
+	add: #SBSTextColorTests -> #testAnchorDangerText;
+	add: #SBSTextColorTests -> #testAnchorDarkText;
+	add: #SBSTextColorTests -> #testAnchorInfoText;
+	add: #SBSTextColorTests -> #testAnchorLightText;
+	add: #SBSTextColorTests -> #testAnchorMutedText;
+	add: #SBSTextColorTests -> #testAnchorPrimaryText;
+	add: #SBSTextColorTests -> #testAnchorSecondaryText;
+	add: #SBSTextColorTests -> #testAnchorSuccessText;
+	add: #SBSTextColorTests -> #testAnchorWarningText;
+	add: #SBSTextColorTests -> #testAnchorWhiteText;
+	add: #SBSTextColorTests -> #testHeadingDangerText;
+	add: #SBSTextColorTests -> #testHeadingDarkText;
+	add: #SBSTextColorTests -> #testHeadingInfoText;
+	add: #SBSTextColorTests -> #testHeadingLightText;
+	add: #SBSTextColorTests -> #testHeadingMutedText;
+	add: #SBSTextColorTests -> #testHeadingPrimaryText;
+	add: #SBSTextColorTests -> #testHeadingSecondaryText;
+	add: #SBSTextColorTests -> #testHeadingSuccessText;
+	add: #SBSTextColorTests -> #testHeadingWarningText;
+	add: #SBSTextColorTests -> #testHeadingWhiteText;
+	add: #SBSTextColorTests -> #testParagraphDangerText;
+	add: #SBSTextColorTests -> #testParagraphDarkText;
+	add: #SBSTextColorTests -> #testParagraphInfoText;
+	add: #SBSTextColorTests -> #testParagraphLightText;
+	add: #SBSTextColorTests -> #testParagraphMutedText;
+	add: #SBSTextColorTests -> #testParagraphPrimaryText;
+	add: #SBSTextColorTests -> #testParagraphSecondaryText;
+	add: #SBSTextColorTests -> #testParagraphSuccessText;
+	add: #SBSTextColorTests -> #testParagraphWarningText;
+	add: #SBSTextColorTests -> #testParagraphWhiteText;
+	add: #SBSTOffsettingTest -> #testEqualWidthColumnExtraLargeOffset;
+	add: #SBSTOffsettingTest -> #testEqualWidthColumnExtraSmallOffset;
+	add: #SBSTOffsettingTest -> #testEqualWidthColumnLargeOffset;
+	add: #SBSTOffsettingTest -> #testEqualWidthColumnMediumOffset;
+	add: #SBSTOffsettingTest -> #testEqualWidthColumnOffset;
+	add: #SBSTOffsettingTest -> #testEqualWidthColumnSmallOffset;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsBaseline;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsBaselineLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsBaselineMedium;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsBaselineSmall;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsBaselineVeryLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsCenter;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsCenterLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsCenterMedium;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsCenterSmall;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsCenterVeryLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsEnd;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsEndLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsEndMedium;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsEndSmall;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsEndVeryLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStart;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStartLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStartMedium;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStartSmall;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStartVeryLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStretch;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStretchLarge;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStretchMedium;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStretchSmall;
+	add: #SBSTRowItemAlignmentTest -> #testRowAlignItemsStretchVeryLarge;
+	add: #SBSTVisualOrderTest -> #testEqualWidthColumnExtraLargeOrdered;
+	add: #SBSTVisualOrderTest -> #testEqualWidthColumnExtraSmallOrdered;
+	add: #SBSTVisualOrderTest -> #testEqualWidthColumnLargeOrdered;
+	add: #SBSTVisualOrderTest -> #testEqualWidthColumnMediumOrdered;
+	add: #SBSTVisualOrderTest -> #testEqualWidthColumnOrdered;
+	add: #SBSTVisualOrderTest -> #testEqualWidthColumnOrderedFirst;
+	add: #SBSTVisualOrderTest -> #testEqualWidthColumnOrderedLast;
+	add: #SBSTVisualOrderTest -> #testEqualWidthColumnSmallOrdered;
+	add: 'SBSAbstractCanvasBrushTest class' -> #isAbstract;
+	yourself.
+
+package binaryGlobalNames: (Set new
+	yourself).
+
+package globalAliases: (Set new
+	yourself).
+
+package setPrerequisites: #(
+	'Bootstrap5-Core'
+	'..\Core\Object Arts\Dolphin\MVP\Base\Dolphin MVP Base').
+
+package!
+
+"Loose Methods"!
+
+!SBSAbstractCanvasBrushTest methodsFor!
+
+builder	^ SBSHtmlCanvas builder! !
+
+!SBSAbstractCanvasBrushTest categoriesForMethods!
+builder!private / accessing!public! !
+!
+
+!SBSAbstractCanvasBrushTest class methodsFor!
+
+isAbstract	^self name = #SBSAbstractCanvasBrushTest! !
+
+!SBSAbstractCanvasBrushTest class categoriesForMethods!
+isAbstract!public!testing! !
+!
+
+!SBSBackgroundColorTests methodsFor!
+
+testDangerBackground	self		assert: [ :html | html div dangerBackground ]		gives: '<div class="bg-danger"></div>'!
+
+testDarkBackground	self		assert: [ :html | html div darkBackground ]		gives: '<div class="bg-dark"></div>'!
+
+testInfoBackground	self		assert: [ :html | html div infoBackground ]		gives: '<div class="bg-info"></div>'!
+
+testLightBackground	self		assert: [ :html | html div lightBackground ]		gives: '<div class="bg-light"></div>'!
+
+testPrimaryBackground	self		assert: [ :html | html div primaryBackground ]		gives: '<div class="bg-primary"></div>'!
+
+testSecondaryBackground	self		assert: [ :html | html div secondaryBackground ]		gives: '<div class="bg-secondary"></div>'!
+
+testSuccessBackground	self		assert: [ :html | html div successBackground ]		gives: '<div class="bg-success"></div>'!
+
+testWarningBackground	self		assert: [ :html | html div warningBackground ]		gives: '<div class="bg-warning"></div>'!
+
+testWhiteBackground	self		assert: [ :html | html div whiteBackground ]		gives: '<div class="bg-white"></div>'! !
+
+!SBSBackgroundColorTests categoriesForMethods!
+testDangerBackground!public!tests! !
+testDarkBackground!public!tests! !
+testInfoBackground!public!tests! !
+testLightBackground!public!tests! !
+testPrimaryBackground!public!tests! !
+testSecondaryBackground!public!tests! !
+testSuccessBackground!public!tests! !
+testWarningBackground!public!tests! !
+testWhiteBackground!public!tests! !
+!
+
+!SBSCanvasBrushTest methodsFor!
+
+testAccordion	self		assert: [ :html | html accordion ]		gives: '<div class="accordion"></div>'!
+
+testAccordionBody	self		assert: [ :html | html accordionBody ]		gives: '<div class="accordion-body"></div>'!
+
+testAccordionBodyWithContent	self		assert: [ :html | html accordionBody: 'Bootstrap' ]		gives: '<div class="accordion-body">Bootstrap</div>'!
+
+testAccordionButton	self		assert: [ :html | html accordionButton ]		gives: '<button class="accordion-button"></button>'!
+
+testAccordionButtonWithContent	self		assert: [ :html | html accordionButton: 'Bootstrap' ]		gives: '<button class="accordion-button">Bootstrap</button>'!
+
+testAccordionCollapse	self		assert: [ :html | html accordionCollapse ]		gives: '<div class="accordion-collapse"></div>'!
+
+testAccordionCollapseWithContent	self		assert: [ :html | html accordionCollapse: 'Bootstrap' ]		gives: '<div class="accordion-collapse">Bootstrap</div>'!
+
+testAccordionHeading	self		assert: [ :html | html accordionHeading ]		gives: '<h1 class="accordion-heading"></h1>'!
+
+testAccordionHeadingWithContent	self		assert: [ :html | html accordionHeading: 'Bootstrap' ]		gives: '<h1 class="accordion-heading">Bootstrap</h1>'!
+
+testAccordionItem	self		assert: [ :html | html accordionItem ]		gives: '<div class="accordion-item"></div>'!
+
+testAccordionItemWithContent	self		assert: [ :html | html accordionItem: 'Bootstrap' ]		gives: '<div class="accordion-item">Bootstrap</div>'!
+
+testAccordionWithContent	self		assert: [ :html | html accordion: 'Bootstrap' ]		gives: '<div class="accordion">Bootstrap</div>'!
+
+testActionBadge	self		assert: [ :html | html actionBadge ]		gives: '<a class="badge"></a>'!
+
+testActionBadgeDanger	self		assert: [ :html | html actionBadge beDanger ]		gives: '<a class="badge badge-danger"></a>'!
+
+testActionBadgeDark	self		assert: [ :html | html actionBadge beDark ]		gives: '<a class="badge badge-dark"></a>'!
+
+testActionBadgeInfo	self		assert: [ :html | html actionBadge beInfo ]		gives: '<a class="badge badge-info"></a>'!
+
+testActionBadgeLight	self		assert: [ :html | html actionBadge beLight ]		gives: '<a class="badge badge-light"></a>'!
+
+testActionBadgePrimary	self		assert: [ :html | html actionBadge bePrimary ]		gives: '<a class="badge badge-primary"></a>'!
+
+testActionBadgeSecondary	self		assert: [ :html | html actionBadge beSecondary ]		gives: '<a class="badge badge-secondary"></a>'!
+
+testActionBadgeSuccess	self		assert: [ :html | html actionBadge beSuccess ]		gives: '<a class="badge badge-success"></a>'!
+
+testActionBadgeWarning	self		assert: [ :html | html actionBadge beWarning ]		gives: '<a class="badge badge-warning"></a>'!
+
+testActionBadgeWithContent	self		assert: [ :html | html actionBadge: 'Bootstrap' ]		gives: '<a class="badge">Bootstrap</a>'!
+
+testAlert	self		assert: [ :html | html alert ]		gives: '<div class="alert"></div>'!
+
+testAlertDanger	self		assert: [ :html | html alert beDanger ]		gives: '<div class="alert alert-danger"></div>'!
+
+testAlertDark	self		assert: [ :html | html alert beDark ]		gives: '<div class="alert alert-dark"></div>'!
+
+testAlertDismissible	self		assert: [ :html | html alert beDismissible ]		gives: '<div class="alert alert-dismissible"></div>'!
+
+testAlertHeading	self		assert: [ :html | html alertHeading ]		gives: '<h1 class="alert-heading"></h1>'!
+
+testAlertHeadingWithContent	self		assert: [ :html | html alertHeading: 'Bootstrap' ]		gives: '<h1 class="alert-heading">Bootstrap</h1>'!
+
+testAlertInfo	self		assert: [ :html | html alert beInfo ]		gives: '<div class="alert alert-info"></div>'!
+
+testAlertLight	self		assert: [ :html | html alert beLight ]		gives: '<div class="alert alert-light"></div>'!
+
+testAlertLink	self		assert: [ :html | html alertLink ]		gives: '<a class="alert-link"></a>'!
+
+testAlertLinkWithContent	self		assert: [ :html | html alertLink: 'Bootstrap' ]		gives: '<a class="alert-link">Bootstrap</a>'!
+
+testAlertPrimary	self		assert: [ :html | html alert bePrimary ]		gives: '<div class="alert alert-primary"></div>'!
+
+testAlertSecondary	self		assert: [ :html | html alert beSecondary ]		gives: '<div class="alert alert-secondary"></div>'!
+
+testAlertSuccess	self		assert: [ :html | html alert beSuccess ]		gives: '<div class="alert alert-success"></div>'!
+
+testAlertWarning	self		assert: [ :html | html alert beWarning ]		gives: '<div class="alert alert-warning"></div>'!
+
+testAlertWithContent	self		assert: [ :html | html alert: 'Bootstrap' ]		gives: '<div class="alert">Bootstrap</div>'!
+
+testBadge	self		assert: [ :html | html badge ]		gives: '<span class="badge"></span>'!
+
+testBadgeDanger	self		assert: [ :html | html badge beDanger ]		gives: '<span class="badge bg-danger"></span>'!
+
+testBadgeDark	self		assert: [ :html | html badge beDark ]		gives: '<span class="badge bg-dark"></span>'!
+
+testBadgeInfo	self		assert: [ :html | html badge beInfo ]		gives: '<span class="badge bg-info"></span>'!
+
+testBadgeLight	self		assert: [ :html | html badge beLight ]		gives: '<span class="badge bg-light"></span>'!
+
+testBadgePrimary	self		assert: [ :html | html badge bePrimary ]		gives: '<span class="badge bg-primary"></span>'!
+
+testBadgeSecondary	self		assert: [ :html | html badge beSecondary ]		gives: '<span class="badge bg-secondary"></span>'!
+
+testBadgeSuccess	self		assert: [ :html | html badge beSuccess ]		gives: '<span class="badge bg-success"></span>'!
+
+testBadgeWarning	self		assert: [ :html | html badge beWarning ]		gives: '<span class="badge bg-warning"></span>'!
+
+testBadgeWithContent	self		assert: [ :html | html badge: 'Bootstrap' ]		gives: '<span class="badge">Bootstrap</span>'!
+
+testBreadcrumb	self		assert: [ :html | html breadcrumb ]		gives: '<ol class="breadcrumb"></ol>'!
+
+testBreadcrumbItem	self		assert: [ :html | html breadcrumbItem ]		gives: '<li class="breadcrumb-item"></li>'!
+
+testBreadcrumbItemWithContent	self		assert: [ :html | html breadcrumbItem: 'Bootstrap' ]		gives: '<li class="breadcrumb-item">Bootstrap</li>'!
+
+testBreadcrumbWithContent	self		assert: [ :html | html breadcrumb: 'Bootstrap' ]		gives: '<ol class="breadcrumb">Bootstrap</ol>'!
+
+testButton	self		assert: [ :html | html formButton ]		gives: '<button class="btn"></button>'!
+
+testButtonActive	self		assert: [ :html | html formButton beActive ]		gives: '<button class="btn active"></button>'!
+
+testButtonBlock	self		assert: [ :html | html formButton beBlock ]		gives: '<button class="btn btn-block"></button>'!
+
+testButtonDanger	self		assert: [ :html | html formButton beDanger ]		gives: '<button class="btn btn-danger"></button>'!
+
+testButtonDark	self		assert: [ :html | html formButton beDark ]		gives: '<button class="btn btn-dark"></button>'!
+
+testButtonDataTarget	self		assert: [ :html | html formButton dataTarget: '#bootstrap' ]		gives: '<button class="btn" data-bs-target="#bootstrap"></button>'!
+
+testButtonDataToggle	self		assert: [ :html | html formButton dataToggle: '#bootstrap' ]		gives: '<button class="btn" data-bs-toggle="#bootstrap"></button>'!
+
+testButtonDisabled	self		assert: [ :html | html formButton beDisabled ]		gives: '<button class="btn" disabled></button>'!
+
+testButtonDropdown	self		assert: [ :html | html formButton dropdown ]		gives: '<button class="btn dropdown-toggle"></button>'!
+
+testButtonDropdownSplitted	self		assert: [ :html | html formButton dropdownSplitted ]		gives: '<button class="btn dropdown-toggle dropdown-toggle-split"></button>'!
+
+testButtonGroup	self		assert: [:html | html buttonGroup ]		gives: '<div class="btn-group"></div>'!
+
+testButtonGroupAriaLabel	self		assert: [:html | html buttonGroup ariaLabel: 'Bootstrap' ]		gives: '<div class="btn-group" aria-label="Bootstrap"></div>'!
+
+testButtonGroupGroupRole	self		assert: [:html | html buttonGroup groupRole ]		gives: '<div class="btn-group" role="group"></div>'!
+
+testButtonGroupLarge	self		assert: [:html | html buttonGroup beLarge ]		gives: '<div class="btn-group btn-group-lg"></div>'!
+
+testButtonGroupSmall	self		assert: [:html | html buttonGroup beSmall ]		gives: '<div class="btn-group btn-group-sm"></div>'!
+
+testButtonGroupToolbarRole	self		assert: [:html | html buttonGroup toolbarRole ]		gives: '<div class="btn-group" role="toolbar"></div>'!
+
+testButtonGroupVertical	self		assert: [:html | html buttonGroupVertical ]		gives: '<div class="btn-group-vertical"></div>'!
+
+testButtonGroupVerticalWithContent	self		assert: [:html | html buttonGroupVertical: 'Bootstrap' ]		gives: '<div class="btn-group-vertical">Bootstrap</div>'!
+
+testButtonGroupWithContent	self		assert: [:html | html buttonGroup: 'Bootstrap' ]		gives: '<div class="btn-group">Bootstrap</div>'!
+
+testButtonInfo	self		assert: [ :html | html formButton beInfo ]		gives: '<button class="btn btn-info"></button>'!
+
+testButtonLarge	self		assert: [ :html | html formButton beLarge ]		gives: '<button class="btn btn-lg"></button>'!
+
+testButtonLight	self		assert: [ :html | html formButton beLight ]		gives: '<button class="btn btn-light"></button>'!
+
+testButtonLink	self		assert: [ :html | html formButton beLink ]		gives: '<button class="btn btn-link"></button>'!
+
+testButtonPrimary	self		assert: [ :html | html formButton bePrimary ]		gives: '<button class="btn btn-primary"></button>'!
+
+testButtonSecondary	self		assert: [ :html | html formButton beSecondary ]		gives: '<button class="btn btn-secondary"></button>'!
+
+testButtonSmall	self		assert: [ :html | html formButton beSmall ]		gives: '<button class="btn btn-sm"></button>'!
+
+testButtonSuccess	self		assert: [ :html | html formButton beSuccess ]		gives: '<button class="btn btn-success"></button>'!
+
+testButtonToolbar	self		assert: [ :html | html buttonToolbar ]		gives: '<div class="btn-toolbar"></div>'!
+
+testButtonToolbarWithContent	self		assert: [ :html | html buttonToolbar: 'Bootstrap' ]		gives: '<div class="btn-toolbar">Bootstrap</div>'!
+
+testButtonWarning	self		assert: [ :html | html formButton beWarning ]		gives: '<button class="btn btn-warning"></button>'!
+
+testButtonWithContent	self		assert: [ :html | html formButton: 'Bootstrap' ]		gives: '<button class="btn">Bootstrap</button>'!
+
+testCard	self		assert: [ :html | html card ]		gives: '<div class="card"></div>'!
+
+testCardBody	self		assert: [ :html | html cardBody ]		gives: '<div class="card-body"></div>'!
+
+testCardBodyWithContent	self		assert: [ :html | html cardBody: 'Bootstrap' ]		gives: '<div class="card-body">Bootstrap</div>'!
+
+testCardColumns	self		assert: [ :html | html cardColumns ]		gives: '<div class="card-columns"></div>'!
+
+testCardColumnsWithContent	self		assert: [ :html | html cardColumns: 'Bootstrap' ]		gives: '<div class="card-columns">Bootstrap</div>'!
+
+testCardDeck	self		assert: [ :html | html cardDeck ]		gives: '<div class="card-deck"></div>'!
+
+testCardDeckWithContent	self		assert: [ :html | html cardDeck: 'Bootstrap' ]		gives: '<div class="card-deck">Bootstrap</div>'!
+
+testCardDirectCardBody	self		assert: [ :html | html card cardBody ]		gives: '<div class="card card-body"></div>'!
+
+testCardDirectCardBodyWithContent	self		assert: [ :html | html card cardBody: 'Bootstrap' ]		gives: '<div class="card card-body">Bootstrap</div>'!
+
+testCardFooter	self		assert: [ :html | html cardFooter ]		gives: '<div class="card-footer"></div>'!
+
+testCardFooterWithContent	self		assert: [ :html | html cardFooter: 'Bootstrap' ]		gives: '<div class="card-footer">Bootstrap</div>'!
+
+testCardGroup	self		assert: [ :html | html cardGroup]		gives: '<div class="card-group"></div>'!
+
+testCardGroupWithContent	self		assert: [ :html | html cardGroup: 'Bootstrap' ]		gives: '<div class="card-group">Bootstrap</div>'!
+
+testCardHeader	self		assert: [ :html | html cardHeader ]		gives: '<div class="card-header"></div>'!
+
+testCardHeaderWithContent	self		assert: [ :html | html cardHeader: 'Bootstrap' ]		gives: '<div class="card-header">Bootstrap</div>'!
+
+testCardImage	self		assert: [ :html | html cardImage ]		gives: '<img alt="" class="card-img-top"/>'!
+
+testCardImageBottom	self		assert: [ :html | html cardImageBottom ]		gives: '<img alt="" class="card-img-bottom"/>'!
+
+testCardImageOverlay	self		assert: [ :html | html cardImageOverlay ]		gives: '<div class="card-img-overlay"></div>'!
+
+testCardImageOverlayWithContent	self		assert: [ :html | html cardImageOverlay: 'Bootstrap' ]		gives: '<div class="card-img-overlay">Bootstrap</div>'!
+
+testCardLink	self		assert: [ :html | html cardLink ]		gives: '<a class="card-link"></a>'!
+
+testCardLinkWithContent	self		assert: [ :html | html cardLink: 'Bootstrap' ]		gives: '<a class="card-link">Bootstrap</a>'!
+
+testCardSubtitle	self		assert: [ :html | html cardSubtitle ]		gives: '<h1 class="card-subtitle"></h1>'!
+
+testCardSubtitleWithContent	self		assert: [ :html | html cardSubtitle: 'Bootstrap' ]		gives: '<h1 class="card-subtitle">Bootstrap</h1>'!
+
+testCardText	self		assert: [ :html | html cardText ]		gives: '<p class="card-text"></p>'!
+
+testCardTextWithContent	self		assert: [ :html | html cardText: 'Bootstrap' ]		gives: '<p class="card-text">Bootstrap</p>'!
+
+testCardTitle	self		assert: [ :html | html cardTitle ]		gives: '<h1 class="card-title"></h1>'!
+
+testCardTitleWithContent	self		assert: [ :html | html cardTitle: 'Bootstrap' ]		gives: '<h1 class="card-title">Bootstrap</h1>'!
+
+testCardWithContent	self		assert: [ :html | html card: 'Bootstrap' ]		gives: '<div class="card">Bootstrap</div>'!
+
+testCarousel	self		assert: [ :html | html carousel ]		gives: '<div class="carousel"></div>'!
+
+testCarouselAutoplay	self		assert: [ :html | html carousel autoplay ]		gives: '<div class="carousel" data-bs-ride="carousel"></div>'!
+
+testCarouselControlNext	self		assert: [ :html | html carouselControlNext ]		gives: '<a class="carousel-control-next"></a>'!
+
+testCarouselControlNextWithContent	self		assert: [ :html | html carouselControlNext: 'Bootstrap' ]		gives: '<a class="carousel-control-next">Bootstrap</a>'!
+
+testCarouselControlPrevious	self		assert: [ :html | html carouselControlPrevious ]		gives: '<a class="carousel-control-prev"></a>'!
+
+testCarouselControlPreviousWithContent	self		assert: [ :html | html carouselControlPrevious: 'Bootstrap' ]		gives: '<a class="carousel-control-prev">Bootstrap</a>'!
+
+testCarouselInner	self		assert: [ :html | html carouselInner ]		gives: '<div class="carousel-inner"></div>'!
+
+testCarouselInnerWithContent	self		assert: [ :html | html carouselInner: 'Bootstrap' ]		gives: '<div class="carousel-inner">Bootstrap</div>'!
+
+testCarouselItem	self		assert: [ :html | html carouselItem ]		gives: '<div class="carousel-item"></div>'!
+
+testCarouselItemWithContent	self		assert: [ :html | html carouselItem: 'Bootstrap' ]		gives: '<div class="carousel-item">Bootstrap</div>'!
+
+testCarouselWithContent	self		assert: [ :html | html carousel: 'Bootstrap' ]		gives: '<div class="carousel">Bootstrap</div>'!
+
+testCloseButton	self		assert: [ :html | html closeButton ]		gives: '<button class="btn-close"></button>'!
+
+testCloseButtonWithContent	self		assert: [ :html | html closeButton: 'Bootstrap' ]		gives: '<button class="btn-close">Bootstrap</button>'!
+
+testCollapse	self		assert: [ :html | html collapse ]		gives: '<div class="collapse"></div>'!
+
+testCollapseShow	self		assert: [ :html | html collapse show ]		gives: '<div class="collapse show"></div>'!
+
+testCollapseWithContent	self		assert: [ :html | html collapse: 'Bootstrap' ]		gives: '<div class="collapse">Bootstrap</div>'!
+
+testColumn	self		assert: [ :html | html column ]		gives: '<div></div>'!
+
+testColumnExtraLargeSize	self		assert: [ :html | html column extraLargeSize: 1 ]		gives: '<div class="col-xl-1"></div>'!
+
+testColumnExtraLargeVariableWidth	self		assert: [ :html | html column extraLargeVariableWidth ]		gives: '<div class="col-xl-auto"></div>'!
+
+testColumnExtraSmallSize	self		assert: [ :html | html column extraSmallSize: 1 ]		gives: '<div class="col-1"></div>'!
+
+testColumnLargeSize	self		assert: [ :html | html column largeSize: 1 ]		gives: '<div class="col-lg-1"></div>'!
+
+testColumnLargeVariableWidth	self		assert: [ :html | html column largeVariableWidth ]		gives: '<div class="col-lg-auto"></div>'!
+
+testColumnMediumSize	self		assert: [ :html | html column: 'Bootstrap' mediumSize: 2 ]		gives: '<div class="col-md-2">Bootstrap</div>'!
+
+testColumnMediumVariableWidth	self		assert: [ :html | html column mediumVariableWidth ]		gives: '<div class="col-md-auto"></div>'!
+
+testColumnSmallSize	self		assert: [ :html | html column smallSize: 1 ]		gives: '<div class="col-sm-1"></div>'!
+
+testColumnSmallVariableWidth	self		assert: [ :html | html column smallVariableWidth ]		gives: '<div class="col-sm-auto"></div>'!
+
+testColumnVariableWidth	self		assert: [ :html | html column variableWidth ]		gives: '<div class="col"></div>'!
+
+testColumnWithContent	self		assert: [ :html | html column: 'Bootstrap'  ]		gives: '<div>Bootstrap</div>'!
+
+testContainer	self		assert: [ :html | html container ]		gives: '<div class="container"></div>'!
+
+testContainerFluid	self		assert: [ :html | html containerFluid ]		gives: '<div class="container-fluid"></div>'!
+
+testContainerFluidWithContent	self		assert: [ :html | html containerFluid: 'Bootstrap' ]		gives: '<div class="container-fluid">Bootstrap</div>'!
+
+testContainerWithContent	self		assert: [ :html | html container: 'Bootstrap' ]		gives: '<div class="container">Bootstrap</div>'!
+
+testDisplayHeading	self		assert: [ :html | html displayHeading level: 1 ]		gives: '<h1 class="display-1"></h1>'!
+
+testDropdown	self		assert: [ :html | html dropdown ]		gives: '<div class="dropdown"></div>'!
+
+testDropdownDivider	self		assert: [ :html | html dropdownDivider ]		gives: '<div class="dropdown-divider"></div>'!
+
+testDropdownDropLeft	self		assert: [ :html | html dropdown dropLeft ]		gives: '<div class="dropdown dropleft"></div>'!
+
+testDropdownDropRight	self		assert: [ :html | html dropdown dropRight ]		gives: '<div class="dropdown dropright"></div>'!
+
+testDropdownHeader	self		assert: [ :html | html dropdownHeader ]		gives: '<h1 class="dropdown-header"></h1>'!
+
+testDropdownHeaderWithContent	self		assert: [ :html | html dropdownHeader: 'Bootstrap' ]		gives: '<h1 class="dropdown-header">Bootstrap</h1>'!
+
+testDropdownItem	self		assert: [ :html | html dropdownItem ]		gives: '<a class="dropdown-item"></a>'!
+
+testDropdownItemActive	self		assert: [ :html | html dropdownItem beActive ]		gives: '<a class="dropdown-item active"></a>'!
+
+testDropdownItemDisabled	self		assert: [ :html | html dropdownItem beDisabled ]		gives: '<a class="dropdown-item disabled"></a>'!
+
+testDropdownItemWithContent	self		assert: [ :html | html dropdownItem: 'Bootstrap' ]		gives: '<a class="dropdown-item">Bootstrap</a>'!
+
+testDropdownMenu	self		assert: [ :html | html dropdownMenu ]		gives: '<div class="dropdown-menu"></div>'!
+
+testDropdownMenuDropRight	self		assert: [ :html | html dropdownMenu dropRight ]		gives: '<div class="dropdown-menu dropdown-menu-right"></div>'!
+
+testDropdownShow	self		assert: [ :html | html dropdown show ]		gives: '<div class="dropdown show"></div>'!
+
+testDropdownWithContent	self		assert: [ :html | html dropdown: 'Bootstrap' ]		gives: '<div class="dropdown">Bootstrap</div>'!
+
+testDropup	self		assert: [ :html | html dropup ]		gives: '<div class="dropup"></div>'!
+
+testDropupWithContent	self		assert: [ :html | html dropup: 'Bootstrap' ]		gives: '<div class="dropup">Bootstrap</div>'!
+
+testEqualWidthColumn	self		assert: [ :html | html equalWidthColumn  ]		gives: '<div class="col"></div>'!
+
+testEqualWidthColumnsOnMultipleRows	self		assert: [ :html | html equalWidthColumnsOnMultipleRows  ]		gives: '<div class="w-100"></div>'!
+
+testEqualWidthColumnWithContent	self		assert: [ :html | html equalWidthColumn: 'Bootstrap'  ]		gives: '<div class="col">Bootstrap</div>'!
+
+testFontStylingOfHeading	self		assert: [:html | html paragraph heading: 3 ]		gives: '<p class="h3"></p>'!
+
+testFormCheckbox	self		assert: [ :html | html formCheckbox ]		gives: '<input class="form-check-input" type="checkbox"/>'!
+
+testFormCheckboxInline	self		assert: [ :html | html formCheckboxInline ]		gives: '<div class="form-check-inline"></div>'!
+
+testFormCheckboxInlineWithContent	self		assert: [ :html | html formCheckboxInline: 'Bootstrap' ]		gives: '<div class="form-check-inline">Bootstrap</div>'!
+
+testFormCheckboxWithContent	self		assert: [ :html | html formCheckbox: 'Bootstrap' ]		gives: '<input class="form-check-input" type="checkbox"/>Bootstrap'!
+
+testFormCheckLabel	self		assert: [ :html | html formCheckLabel ]		gives: '<label class="form-check-label"></label>'!
+
+testFormCheckLabelWithContent	self		assert: [ :html | html formCheckLabel: 'Bootstrap' ]		gives: '<label class="form-check-label">Bootstrap</label>'!
+
+testFormControl	self		assert: [ :html | html textInput formControl ]		gives: '<input class="form-control" type="text"/>'!
+
+testFormControlOnSelect	self		assert: [ :html | html select formControl ]		gives: '<select class="form-control"></select>'!
+
+testFormControlOnTextArea	self		assert: [ :html | html textArea formControl ]		gives: '<textarea rows="auto" cols="auto" class="form-control"></textarea>'!
+
+testFormFileUpload	self		assert: [ :html | html formFileUpload ]		gives: '<input class="form-control-file" type="file"/>'!
+
+testFormGroup	self		assert: [ :html | html formGroup ]		gives: '<div class="form-group"></div>'!
+
+testFormGroupCheck	self		assert: [ :html | html formGroup formCheck ]		gives: '<div class="form-group form-check"></div>'!
+
+testFormGroupWithContent	self		assert: [ :html | html formGroup: 'Bootstrap' ]		gives: '<div class="form-group">Bootstrap</div>'!
+
+testFormInline	self		assert: [ :html | html form inline ]		gives: '<form accept-charset="utf-8" method="post" action="/" class="form-inline"></form>'!
+
+testFormMultiSelect	self		assert: [ :html | html formMultiSelect ]		gives: '<select class="form-control" multiple></select>'!
+
+testFormMultiSelectWithContent	self		assert: [ :html | html formMultiSelect: 'Bootstrap' ]		gives: '<select class="form-control" multiple>Bootstrap</select>'!
+
+testFormPasswordInput	self		assert: [ :html | html formPasswordInput ]		gives: '<input class="form-control" type="password"/>'!
+
+testFormPasswordInputWithContent	self		assert: [ :html | html formPasswordInput: 'Bootstrap' ]		gives: '<input class="form-control" value="Bootstrap" type="password"/>'!
+
+testFormPlainTextInput	self		assert: [ :html | html formPlainTextInput ]		gives: '<input class="form-control-plaintext" type="text"/>'!
+
+testFormRadiobutton	self		assert: [ :html | html formRadiobutton ]		gives: '<input class="form-check-input" type="radio"/>'!
+
+testFormRangeInput	self		assert: [ :html | html formRangeInput ]		gives: '<input class="form-control-range" type="range"/>'!
+
+testFormSelect	self		assert: [ :html | html formSelect ]		gives: '<select class="form-select"></select>'!
+
+testFormSelectWithContent	self		assert: [ :html | html formSelect: 'Bootstrap' ]		gives: '<select class="form-select">Bootstrap</select>'!
+
+testFormTextArea	self		assert: [ :html | html formTextArea ]		gives: '<textarea rows="auto" cols="auto" class="form-control"></textarea>'!
+
+testFormTextAreaWithContent	self		assert: [ :html | html formTextArea: 'Bootstrap' ]		gives: '<textarea rows="auto" cols="auto" class="form-control">Bootstrap</textarea>'!
+
+testFormTextInput	self		assert: [ :html | html formTextInput ]		gives: '<input class="form-control" type="text"/>'!
+
+testFormTextInputWithContent	self		assert: [ :html | html formTextInput: 'Bootstrap' ]		gives: '<input class="form-control" value="Bootstrap" type="text"/>'!
+
+testImageCentered	self		assert: [ :html | html image centered ]		gives: '<img alt="" class="mx-auto d-block"/>'!
+
+testImageCircle	self		assert: [ :html | html image circle ]		gives: '<img alt="" class="rounded-circle"/>'!
+
+testImageFloatLeft	self		assert: [ :html | html image floatLeft ]		gives: '<img alt="" class="float-left"/>'!
+
+testImageFloatRight	self		assert: [ :html | html image floatRight ]		gives: '<img alt="" class="float-right"/>'!
+
+testImageFluid	self		assert: [ :html | html imageFluid ]		gives: '<img alt="" class="image-fluid"/>'!
+
+testImageRounded	self		assert: [ :html | html image rounded ]		gives: '<img alt="" class="rounded"/>'!
+
+testImageThumbnail	self		assert: [ :html | html image thumbnail ]		gives: '<img alt="" class="img-thumbnail"/>'!
+
+testInputGroup	self		assert: [ :html | html inputGroup ]		gives: '<div class="input-group"></div>'!
+
+testInputGroupAppend	self		assert: [ :html | html inputGroupAppend ]		gives: '<div class="input-group-append"></div>'!
+
+testInputGroupAppendWithContent	self		assert: [ :html | html inputGroupAppend: 'Bootstrap' ]		gives: '<div class="input-group-append">Bootstrap</div>'!
+
+testInputGroupLarge	self		assert: [ :html | html inputGroup beLarge ]		gives: '<div class="input-group input-group-lg"></div>'!
+
+testInputGroupPrepend	self		assert: [ :html | html inputGroupPrepend ]		gives: '<div class="input-group-prepend"></div>'!
+
+testInputGroupPrependWithContent	self		assert: [ :html | html inputGroupPrepend: 'Bootstrap' ]		gives: '<div class="input-group-prepend">Bootstrap</div>'!
+
+testInputGroupSmall	self		assert: [ :html | html inputGroup beSmall ]		gives: '<div class="input-group input-group-sm"></div>'!
+
+testInputGroupText	self		assert: [ :html | html inputGroupText ]		gives: '<span class="input-group-text"></span>'!
+
+testInputGroupTextWithContent	self		assert: [ :html | html inputGroupText: 'Bootstrap' ]		gives: '<span class="input-group-text">Bootstrap</span>'!
+
+testInputGroupWithContent	self		assert: [ :html | html inputGroup: 'Bootstrap' ]		gives: '<div class="input-group">Bootstrap</div>'!
+
+testJumbotron	self		assert: [ :html | html jumbotron ]		gives: '<div class="jumbotron"></div>'!
+
+testJumbotronWithContent	self		assert: [ :html | html jumbotron: 'Bootstrap' ]		gives: '<div class="jumbotron">Bootstrap</div>'!
+
+testListGroup	self		assert: [ :html | html listGroup ]		gives: '<ul class="list-group"></ul>'!
+
+testListGroupFlush	self		assert: [ :html | html listGroup flush ]		gives: '<ul class="list-group list-group-flush"></ul>'!
+
+testListGroupHorizontal	self		assert: [ :html | html listGroup beHorizontal ]		gives: '<ul class="list-group list-group-horizontal"></ul>'!
+
+testListGroupHorizontalLarge	self		assert: [ :html | html listGroup beHorizontalLarge ]		gives: '<ul class="list-group list-group-horizontal-lg"></ul>'!
+
+testListGroupHorizontalMedium	self		assert: [ :html | html listGroup beHorizontalMedium ]		gives: '<ul class="list-group list-group-horizontal-md"></ul>'!
+
+testListGroupHorizontalSmall	self		assert: [ :html | html listGroup beHorizontalSmall ]		gives: '<ul class="list-group list-group-horizontal-sm"></ul>'!
+
+testListGroupHorizontalVeryLarge	self		assert: [ :html | html listGroup beHorizontalVeryLarge ]		gives: '<ul class="list-group list-group-horizontal-xl"></ul>'!
+
+testListGroupItem	self		assert: [ :html | html listGroupItem ]		gives: '<li class="list-group-item"></li>'!
+
+testListGroupItemActive	self		assert: [ :html | html listGroupItem beActive ]		gives: '<li class="list-group-item active"></li>'!
+
+testListGroupItemDanger	self		assert: [ :html | html listGroupItem beDanger ]		gives: '<li class="list-group-item list-group-item-danger"></li>'!
+
+testListGroupItemDark	self		assert: [ :html | html listGroupItem beDark ]		gives: '<li class="list-group-item list-group-item-dark"></li>'!
+
+testListGroupItemDisabled	self		assert: [ :html | html listGroupItem beDisabled ]		gives: '<li class="list-group-item disabled"></li>'!
+
+testListGroupItemFlexFill	self		assert: [ :html | html listGroupItem flexFill ]		gives: '<li class="list-group-item flex-fill"></li>'!
+
+testListGroupItemInfo	self		assert: [ :html | html listGroupItem beInfo ]		gives: '<li class="list-group-item list-group-item-info"></li>'!
+
+testListGroupItemLight	self		assert: [ :html | html listGroupItem beLight ]		gives: '<li class="list-group-item list-group-item-light"></li>'!
+
+testListGroupItemPrimary	self		assert: [ :html | html listGroupItem bePrimary ]		gives: '<li class="list-group-item list-group-item-primary"></li>'!
+
+testListGroupItemSecondary	self		assert: [ :html | html listGroupItem beSecondary ]		gives: '<li class="list-group-item list-group-item-secondary"></li>'!
+
+testListGroupItemSuccess	self		assert: [ :html | html listGroupItem beSuccess ]		gives: '<li class="list-group-item list-group-item-success"></li>'!
+
+testListGroupItemWarning	self		assert: [ :html | html listGroupItem beWarning ]		gives: '<li class="list-group-item list-group-item-warning"></li>'!
+
+testListGroupItemWithContent	self		assert: [ :html | html listGroupItem: 'Bootstrap' ]		gives: '<li class="list-group-item">Bootstrap</li>'!
+
+testListGroupLinkedItem	self		assert: [ :html | html listGroupLinkedItem ]		gives: '<a class="list-group-item list-group-item-action"></a>'!
+
+testListGroupLinkedItemActive	self		assert: [ :html | html listGroupLinkedItem beActive ]		gives: '<a class="list-group-item list-group-item-action active"></a>'!
+
+testListGroupLinkedItemDanger	self		assert: [ :html | html listGroupLinkedItem beDanger ]		gives: '<a class="list-group-item list-group-item-action list-group-item-danger"></a>'!
+
+testListGroupLinkedItemDark	self		assert: [ :html | html listGroupLinkedItem beDark ]		gives: '<a class="list-group-item list-group-item-action list-group-item-dark"></a>'!
+
+testListGroupLinkedItemDisabled	self		assert: [ :html | html listGroupLinkedItem beDisabled ]		gives: '<a class="list-group-item list-group-item-action disabled"></a>'!
+
+testListGroupLinkedItemInfo	self		assert: [ :html | html listGroupLinkedItem beInfo ]		gives: '<a class="list-group-item list-group-item-action list-group-item-info"></a>'!
+
+testListGroupLinkedItemLight	self		assert: [ :html | html listGroupLinkedItem beLight ]		gives: '<a class="list-group-item list-group-item-action list-group-item-light"></a>'!
+
+testListGroupLinkedItemPrimary	self		assert: [ :html | html listGroupLinkedItem bePrimary ]		gives: '<a class="list-group-item list-group-item-action list-group-item-primary"></a>'!
+
+testListGroupLinkedItemSecondary	self		assert: [ :html | html listGroupLinkedItem beSecondary ]		gives: '<a class="list-group-item list-group-item-action list-group-item-secondary"></a>'!
+
+testListGroupLinkedItemSuccess	self		assert: [ :html | html listGroupLinkedItem beSuccess ]		gives: '<a class="list-group-item list-group-item-action list-group-item-success"></a>'!
+
+testListGroupLinkedItemWarning	self		assert: [ :html | html listGroupLinkedItem beWarning ]		gives: '<a class="list-group-item list-group-item-action list-group-item-warning"></a>'!
+
+testListGroupLinkedItemWithContent	self		assert: [ :html | html listGroupLinkedItem: 'Bootstrap' ]		gives: '<a class="list-group-item list-group-item-action">Bootstrap</a>'!
+
+testListGroupRemoveBorders	self		assert: [ :html | html listGroup removeBorders ]		gives: '<ul class="list-group list-group-flush"></ul>'!
+
+testListGroupWithContent	self		assert: [ :html | html listGroup: 'Bootstrap' ]		gives: '<ul class="list-group">Bootstrap</ul>'!
+
+testMarginBottom	self		assert: [:html | html div marginBottom: 3 ]		gives: '<div class="mb-3"></div>'!
+
+testMarginLeft	self		assert: [:html | html div marginLeft: 3 ]		gives: '<div class="ml-3"></div>'!
+
+testMarginLeftAndRight	self		assert: [:html | html div marginLeftAndRight: 3 ]		gives: '<div class="mx-3"></div>'!
+
+testMarginRight	self		assert: [:html | html div marginRight: 3 ]		gives: '<div class="mr-3"></div>'!
+
+testMarginTop	self		assert: [:html | html div marginTop: 3 ]		gives: '<div class="mt-3"></div>'!
+
+testMarginTopAndBottom	self		assert: [:html | html div marginTopAndBottom: 3 ]		gives: '<div class="my-3"></div>'!
+
+testModal	self		assert: [ :html | html modal ]		gives: '<div class="modal" tabindex="-1" role="dialog"></div>'!
+
+testModalBody	self		assert: [ :html | html modalBody ]		gives: '<div class="modal-body"></div>'!
+
+testModalBodyWithContent	self		assert: [ :html | html modalBody: 'Bootstrap' ]		gives: '<div class="modal-body">Bootstrap</div>'!
+
+testModalCloseButton	self		assert: [ :html | html modalCloseButton ]		gives: '<button class="btn-close" data-bs-dismiss="modal">&times;</button>'!
+
+testModalContent	self		assert: [ :html | html modalContent ]		gives: '<div class="modal-content"></div>'!
+
+testModalContentWithContent	self		assert: [ :html | html modalContent: 'Bootstrap' ]		gives: '<div class="modal-content">Bootstrap</div>'!
+
+testModalDialog	self		assert: [ :html | html modalDialog ]		gives: '<div class="modal-dialog" role="document"></div>'!
+
+testModalDialogCentered	self		assert: [ :html | html modalDialog beCentered ]		gives: '<div class="modal-dialog modal-dialog-centered" role="document"></div>'!
+
+testModalDialogWithContent	self		assert: [ :html | html modalDialog: 'Bootstrap' ]		gives: '<div class="modal-dialog" role="document">Bootstrap</div>'!
+
+testModalFade	self		assert: [ :html | html modal fade]		gives: '<div class="modal fade" tabindex="-1" role="dialog"></div>'!
+
+testModalFooter	self		assert: [ :html | html modalFooter ]		gives: '<div class="modal-footer"></div>'!
+
+testModalFooterWithContent	self		assert: [ :html | html modalFooter: 'Bootstrap' ]		gives: '<div class="modal-footer">Bootstrap</div>'!
+
+testModalHeader	self		assert: [ :html | html modalHeader ]		gives: '<div class="modal-header"></div>'!
+
+testModalHeaderWithContent	self		assert: [ :html | html modalHeader: 'Bootstrap' ]		gives: '<div class="modal-header">Bootstrap</div>'!
+
+testModalTitle	self		assert: [ :html | html modalTitle ]		gives: '<h1 class="modal-title"></h1>'!
+
+testModalTitleWithContent	self		assert: [ :html | html modalTitle: 'Bootstrap' ]		gives: '<h1 class="modal-title">Bootstrap</h1>'!
+
+testModalWithContent	self		assert: [ :html | html modal: 'Bootstrap' ]		gives: '<div class="modal" tabindex="-1" role="dialog">Bootstrap</div>'!
+
+testNav	self		assert: [ :html | html nav ]		gives: '<nav></nav>'!
+
+testNavigation	self		assert: [ :html | html navigation ]		gives: '<nav class="nav"></nav>'!
+
+testNavigationBar	self		assert: [ :html | html navigationBar ]		gives: '<nav class="navbar"></nav>'!
+
+testNavigationBarBackgroundColor	self		assert: [ :html | html navigationBar background color: Color white ]		gives: '<nav class="navbar" style="background-color: #ffffff"></nav>'!
+
+testNavigationBarBackgroundColorString	self		assert: [ :html | html navigationBar background colorString: '#ffffce' ]		gives: '<nav class="navbar" style="background-color: #ffffce"></nav>'!
+
+testNavigationBarBackgroundDanger	self		assert: [ :html | html navigationBar background beDanger ]		gives: '<nav class="navbar bg-danger"></nav>'!
+
+testNavigationBarBackgroundDark	self		assert: [ :html | html navigationBar background beDark ]		gives: '<nav class="navbar bg-dark"></nav>'!
+
+testNavigationBarBackgroundInfo	self		assert: [ :html | html navigationBar background beInfo ]		gives: '<nav class="navbar bg-info"></nav>'!
+
+testNavigationBarBackgroundLight	self		assert: [ :html | html navigationBar background beLight ]		gives: '<nav class="navbar bg-light"></nav>'!
+
+testNavigationBarBackgroundPrimary	self		assert: [ :html | html navigationBar background bePrimary ]		gives: '<nav class="navbar bg-primary"></nav>'!
+
+testNavigationBarBackgroundSuccess	self		assert: [ :html | html navigationBar background beSuccess ]		gives: '<nav class="navbar bg-success"></nav>'!
+
+testNavigationBarBackgroundWarning	self		assert: [ :html | html navigationBar background beWarning ]		gives: '<nav class="navbar bg-warning"></nav>'!
+
+testNavigationBarCollapse	self		assert: [ :html | html navigationBarCollapse ]		gives: '<div class="navbar-collapse"></div>'!
+
+testNavigationBarCollapseWithContent	self		assert: [ :html | html navigationBarCollapse: 'Bootstrap' ]		gives: '<div class="navbar-collapse">Bootstrap</div>'!
+
+testNavigationBarDark	self		assert: [ :html | html navigationBar beDark ]		gives: '<nav class="navbar navbar-dark"></nav>'!
+
+testNavigationBarExpandExtraLarge	self		assert: [ :html | html navigationBar expandExtraLarge ]		gives: '<nav class="navbar navbar-expand-xl"></nav>'!
+
+testNavigationBarExpandLarge	self		assert: [ :html | html navigationBar expandLarge ]		gives: '<nav class="navbar navbar-expand-lg"></nav>'!
+
+testNavigationBarExpandMiddle	self		assert: [ :html | html navigationBar expandMiddle ]		gives: '<nav class="navbar navbar-expand-md"></nav>'!
+
+testNavigationBarExpandSmall	self		assert: [ :html | html navigationBar expandSmall ]		gives: '<nav class="navbar navbar-expand-sm"></nav>'!
+
+testNavigationBarLight	self		assert: [ :html | html navigationBar beLight ]		gives: '<nav class="navbar navbar-light"></nav>'!
+
+testNavigationBarNavigation	self		assert: [ :html | html navigationBarNavigation ]		gives: '<ul class="navbar-nav"></ul>'!
+
+testNavigationBarNavigationWithContent	self		assert: [ :html | html navigationBarNavigation: 'Bootstrap' ]		gives: '<ul class="navbar-nav">Bootstrap</ul>'!
+
+testNavigationBarToggler	self		assert: [ :html | html navigationBarToggler ]		gives: '<button class="navbar-toggler"></button>'!
+
+testNavigationBarTogglerButtonType	self		assert: [ :html | html navigationBarToggler beButtonType ]		gives: '<button class="navbar-toggler" type="button"></button>'!
+
+testNavigationBarTogglerCollapse	self		assert: [ :html | html navigationBarToggler collapse ]		gives: '<button class="navbar-toggler" data-bs-toggle="collapse"></button>'!
+
+testNavigationBarTogglerDataTarget	self		assert: [ :html | html navigationBarToggler dataTarget: '#id_1' ]		gives: '<button class="navbar-toggler" data-bs-target="#id_1"></button>'!
+
+testNavigationBarTogglerIcon	self		assert: [ :html | html navigationBarTogglerIcon ]		gives: '<span class="navbar-toggler-icon"></span>'!
+
+testNavigationBarTogglerWithContent	self		assert: [ :html | html navigationBarToggler: 'Bootstrap' ]		gives: '<button class="navbar-toggler">Bootstrap</button>'!
+
+testNavigationBarWithContent	self		assert: [ :html | html navigationBar: 'Bootstrap' ]		gives: '<nav class="navbar">Bootstrap</nav>'!
+
+testNavigationBreadcrumb	self		assert: [ :html | html nav beBreadcrumb ]		gives: '<nav aria-label="breadcrumb"></nav>'!
+
+testNavigationFlex	self		assert: [ :html | html navigation flex ]		gives: '<nav class="nav d-flex"></nav>'!
+
+testNavigationFlexColumn	self		assert: [ :html | html navigation flexColumn ]		gives: '<nav class="nav flex-column"></nav>'!
+
+testNavigationFlexColumnLarge	self		assert: [ :html | html navigation flexColumnLarge ]		gives: '<nav class="nav flex-lg-column"></nav>'!
+
+testNavigationFlexColumnLargeReverse	self		assert: [ :html | html navigation flexColumnLargeReverse ]		gives: '<nav class="nav flex-lg-column-reverse"></nav>'!
+
+testNavigationFlexColumnMedium	self		assert: [ :html | html navigation flexColumnMedium ]		gives: '<nav class="nav flex-md-column"></nav>'!
+
+testNavigationFlexColumnMediumReverse	self		assert: [ :html | html navigation flexColumnMediumReverse ]		gives: '<nav class="nav flex-md-column-reverse"></nav>'!
+
+testNavigationFlexColumnReverse	self		assert: [ :html | html navigation flexColumnReverse ]		gives: '<nav class="nav flex-column-reverse"></nav>'!
+
+testNavigationFlexColumnSmall	self		assert: [ :html | html navigation flexColumnSmall ]		gives: '<nav class="nav flex-sm-column"></nav>'!
+
+testNavigationFlexColumnSmallReverse	self		assert: [ :html | html navigation flexColumnSmallReverse ]		gives: '<nav class="nav flex-sm-column-reverse"></nav>'!
+
+testNavigationFlexColumnVeryLarge	self		assert: [ :html | html navigation flexColumnVeryLarge ]		gives: '<nav class="nav flex-xl-column"></nav>'!
+
+testNavigationFlexColumnVeryLargeReverse	self		assert: [ :html | html navigation flexColumnVeryLargeReverse ]		gives: '<nav class="nav flex-xl-column-reverse"></nav>'!
+
+testNavigationFlexInline	self		assert: [ :html | html navigation flexInline ]		gives: '<nav class="nav d-inline-flex"></nav>'!
+
+testNavigationFlexLarge	self		assert: [ :html | html navigation flexLarge ]		gives: '<nav class="nav d-lg-flex"></nav>'!
+
+testNavigationFlexLargeInline	self		assert: [ :html | html navigation flexLargeInline ]		gives: '<nav class="nav d-lg-inline-flex"></nav>'!
+
+testNavigationFlexMedium	self		assert: [ :html | html navigation flexMedium ]		gives: '<nav class="nav d-md-flex"></nav>'!
+
+testNavigationFlexMediumInline	self		assert: [ :html | html navigation flexMediumInline ]		gives: '<nav class="nav d-md-inline-flex"></nav>'!
+
+testNavigationFlexRow	self		assert: [ :html | html navigation flexRow ]		gives: '<nav class="nav flex-row"></nav>'!
+
+testNavigationFlexRowLarge	self		assert: [ :html | html navigation flexRowLarge ]		gives: '<nav class="nav flex-lg-row"></nav>'!
+
+testNavigationFlexRowLargeReverse	self		assert: [ :html | html navigation flexRowLargeReverse ]		gives: '<nav class="nav flex-lg-row-reverse"></nav>'!
+
+testNavigationFlexRowMedium	self		assert: [ :html | html navigation flexRowMedium ]		gives: '<nav class="nav flex-md-row"></nav>'!
+
+testNavigationFlexRowMediumReverse	self		assert: [ :html | html navigation flexRowMediumReverse ]		gives: '<nav class="nav flex-md-row-reverse"></nav>'!
+
+testNavigationFlexRowReverse	self		assert: [ :html | html navigation flexRowReverse ]		gives: '<nav class="nav flex-row-reverse"></nav>'!
+
+testNavigationFlexRowSmall	self		assert: [ :html | html navigation flexRowSmall ]		gives: '<nav class="nav flex-sm-row"></nav>'!
+
+testNavigationFlexRowSmallReverse	self		assert: [ :html | html navigation flexRowSmallReverse ]		gives: '<nav class="nav flex-sm-row-reverse"></nav>'!
+
+testNavigationFlexRowVeryLarge	self		assert: [ :html | html navigation flexRowVeryLarge ]		gives: '<nav class="nav flex-xl-row"></nav>'!
+
+testNavigationFlexRowVeryLargeReverse	self		assert: [ :html | html navigation flexRowVeryLargeReverse ]		gives: '<nav class="nav flex-xl-row-reverse"></nav>'!
+
+testNavigationFlexSmall	self		assert: [ :html | html navigation flexSmall ]		gives: '<nav class="nav d-sm-flex"></nav>'!
+
+testNavigationFlexSmallInline	self		assert: [ :html | html navigation flexSmallInline ]		gives: '<nav class="nav d-sm-inline-flex"></nav>'!
+
+testNavigationFlexVeryLarge	self		assert: [ :html | html navigation flexVeryLarge ]		gives: '<nav class="nav d-xl-flex"></nav>'!
+
+testNavigationFlexVeryLargeInline	self		assert: [ :html | html navigation flexVeryLargeInline ]		gives: '<nav class="nav d-xl-inline-flex"></nav>'!
+
+testNavigationItem	self		assert: [ :html | html navigationItem ]		gives: '<li class="nav-item"></li>'!
+
+testNavigationItemActive	self		assert: [ :html | html navigationItem beActive ]		gives: '<li class="nav-item active"></li>'!
+
+testNavigationItemDropdown	self		assert: [ :html | html navigationItem dropdown ]		gives: '<li class="nav-item dropdown"></li>'!
+
+testNavigationItemWithContent	self		assert: [ :html | html navigationItem: 'Bootstrap' ]		gives: '<li class="nav-item">Bootstrap</li>'!
+
+testNavigationJustifyContentAround	self		assert: [ :html | html navigation justifyContentAround  ]		gives: '<nav class="nav justify-content-around"></nav>'!
+
+testNavigationJustifyContentAroundLarge	self		assert: [ :html | html navigation justifyContentAroundLarge  ]		gives: '<nav class="nav justify-content-lg-around"></nav>'!
+
+testNavigationJustifyContentAroundMedium	self		assert: [ :html | html navigation justifyContentAroundMedium  ]		gives: '<nav class="nav justify-content-md-around"></nav>'!
+
+testNavigationJustifyContentAroundSmall	self		assert: [ :html | html navigation justifyContentAroundSmall  ]		gives: '<nav class="nav justify-content-sm-around"></nav>'!
+
+testNavigationJustifyContentAroundVeryLarge	self		assert: [ :html | html navigation justifyContentAroundVeryLarge  ]		gives: '<nav class="nav justify-content-xl-around"></nav>'!
+
+testNavigationJustifyContentBetween	self		assert: [ :html | html navigation justifyContentBetween  ]		gives: '<nav class="nav justify-content-between"></nav>'!
+
+testNavigationJustifyContentBetweenLarge	self		assert: [ :html | html navigation justifyContentBetweenLarge  ]		gives: '<nav class="nav justify-content-lg-between"></nav>'!
+
+testNavigationJustifyContentBetweenMedium	self		assert: [ :html | html navigation justifyContentBetweenMedium  ]		gives: '<nav class="nav justify-content-md-between"></nav>'!
+
+testNavigationJustifyContentBetweenSmall	self		assert: [ :html | html navigation justifyContentBetweenSmall  ]		gives: '<nav class="nav justify-content-sm-between"></nav>'!
+
+testNavigationJustifyContentBetweenVeryLarge	self		assert: [ :html | html navigation justifyContentBetweenVeryLarge  ]		gives: '<nav class="nav justify-content-xl-between"></nav>'!
+
+testNavigationJustifyContentCenter	self		assert: [ :html | html navigation justifyContentCenter  ]		gives: '<nav class="nav justify-content-center"></nav>'!
+
+testNavigationJustifyContentCenterLarge	self		assert: [ :html | html navigation justifyContentCenterLarge  ]		gives: '<nav class="nav justify-content-lg-center"></nav>'!
+
+testNavigationJustifyContentCenterMedium	self		assert: [ :html | html navigation justifyContentCenterMedium  ]		gives: '<nav class="nav justify-content-md-center"></nav>'!
+
+testNavigationJustifyContentCenterSmall	self		assert: [ :html | html navigation justifyContentCenterSmall  ]		gives: '<nav class="nav justify-content-sm-center"></nav>'!
+
+testNavigationJustifyContentCenterVeryLarge	self		assert: [ :html | html navigation justifyContentCenterVeryLarge  ]		gives: '<nav class="nav justify-content-xl-center"></nav>'!
+
+testNavigationJustifyContentEnd	self		assert: [ :html | html navigation justifyContentEnd  ]		gives: '<nav class="nav justify-content-end"></nav>'!
+
+testNavigationJustifyContentEndLarge	self		assert: [ :html | html navigation justifyContentEndLarge  ]		gives: '<nav class="nav justify-content-lg-end"></nav>'!
+
+testNavigationJustifyContentEndMedium	self		assert: [ :html | html navigation justifyContentEndMedium  ]		gives: '<nav class="nav justify-content-md-end"></nav>'!
+
+testNavigationJustifyContentEndSmall	self		assert: [ :html | html navigation justifyContentEndSmall  ]		gives: '<nav class="nav justify-content-sm-end"></nav>'!
+
+testNavigationJustifyContentEndVeryLarge	self		assert: [ :html | html navigation justifyContentEndVeryLarge  ]		gives: '<nav class="nav justify-content-xl-end"></nav>'!
+
+testNavigationJustifyContentStart	self		assert: [ :html | html navigation justifyContentStart  ]		gives: '<nav class="nav justify-content-start"></nav>'!
+
+testNavigationJustifyContentStartLarge	self		assert: [ :html | html navigation justifyContentStartLarge  ]		gives: '<nav class="nav justify-content-lg-start"></nav>'!
+
+testNavigationJustifyContentStartMedium	self		assert: [ :html | html navigation justifyContentStartMedium  ]		gives: '<nav class="nav justify-content-md-start"></nav>'!
+
+testNavigationJustifyContentStartSmall	self		assert: [ :html | html navigation justifyContentStartSmall  ]		gives: '<nav class="nav justify-content-sm-start"></nav>'!
+
+testNavigationJustifyContentStartVeryLarge	self		assert: [ :html | html navigation justifyContentStartVeryLarge  ]		gives: '<nav class="nav justify-content-xl-start"></nav>'!
+
+testNavigationLink	self		assert: [ :html | html navigationLink ]		gives: '<a class="nav-link"></a>'!
+
+testNavigationLinkActive	self		assert: [ :html | html navigationLink beActive ]		gives: '<a class="nav-link active"></a>'!
+
+testNavigationLinkDisabled	self		assert: [ :html | html navigationLink beDisabled ]		gives: '<a class="nav-link disabled"></a>'!
+
+testNavigationLinkDropdownToggle	self		assert: [ :html | html navigationLink dropdownToggle ]		gives: '<a class="nav-link dropdown-toggle"></a>'!
+
+testNavigationLinkWithContent	self		assert: [ :html | html navigationLink: 'Bootstrap' ]		gives: '<a class="nav-link">Bootstrap</a>'!
+
+testNavigationList	self		assert: [ :html | html navigationList ]		gives: '<ul class="nav"></ul>'!
+
+testNavigationListWithContent	self		assert: [ :html | html navigationList: 'Bootstrap' ]		gives: '<ul class="nav">Bootstrap</ul>'!
+
+testNavigationWithContent	self		assert: [ :html | html navigation: 'Bootstrap' ]		gives: '<nav class="nav">Bootstrap</nav>'!
+
+testNavWithContent	self		assert: [ :html | html nav: 'Bootstrap' ]		gives: '<nav>Bootstrap</nav>'!
+
+testOutlineButton	self		assert: [ :html | html outlineButton ]		gives: '<button class="btn"></button>'!
+
+testOutlineButtonBlock	self		assert: [ :html | html outlineButton beBlock ]		gives: '<button class="btn btn-block"></button>'!
+
+testOutlineButtonDanger	self		assert: [ :html | html outlineButton beDanger ]		gives: '<button class="btn btn-outline-danger"></button>'!
+
+testOutlineButtonDark	self		assert: [ :html | html outlineButton beDark ]		gives: '<button class="btn btn-outline-dark"></button>'!
+
+testOutlineButtonInfo	self		assert: [ :html | html outlineButton beInfo ]		gives: '<button class="btn btn-outline-info"></button>'!
+
+testOutlineButtonLarge	self		assert: [ :html | html outlineButton beLarge ]		gives: '<button class="btn btn-lg"></button>'!
+
+testOutlineButtonLight	self		assert: [ :html | html outlineButton beLight ]		gives: '<button class="btn btn-outline-light"></button>'!
+
+testOutlineButtonPrimary	self		assert: [ :html | html outlineButton bePrimary ]		gives: '<button class="btn btn-outline-primary"></button>'!
+
+testOutlineButtonSecondary	self		assert: [ :html | html outlineButton beSecondary ]		gives: '<button class="btn btn-outline-secondary"></button>'!
+
+testOutlineButtonSmall	self		assert: [ :html | html outlineButton beSmall ]		gives: '<button class="btn btn-sm"></button>'!
+
+testOutlineButtonSuccess	self		assert: [ :html | html outlineButton beSuccess ]		gives: '<button class="btn btn-outline-success"></button>'!
+
+testOutlineButtonWarning	self		assert: [ :html | html outlineButton beWarning ]		gives: '<button class="btn btn-outline-warning"></button>'!
+
+testOutlineButtonWithContent	self		assert: [ :html | html outlineButton: 'Bootstrap' ]		gives: '<button class="btn">Bootstrap</button>'!
+
+testPaddingBottom	self		assert: [:html | html div paddingBottom: 3 ]		gives: '<div class="pb-3"></div>'!
+
+testPaddingLeft	self		assert: [:html | html div paddingLeft: 3 ]		gives: '<div class="pl-3"></div>'!
+
+testPaddingLeftAndRight	self		assert: [:html | html div paddingLeftAndRight: 3 ]		gives: '<div class="px-3"></div>'!
+
+testPaddingRight	self		assert: [:html | html div paddingRight: 3 ]		gives: '<div class="pr-3"></div>'!
+
+testPaddingTop	self		assert: [:html | html div paddingTop: 3 ]		gives: '<div class="pt-3"></div>'!
+
+testPaddingTopAndBottom	self		assert: [:html | html div paddingTopAndBottom: 3 ]		gives: '<div class="py-3"></div>'!
+
+testPageItem	self		assert: [ :html | html pageItem ]		gives: '<li class="page-item"></li>'!
+
+testPageItemActive	self		assert: [ :html | html pageItem beActive ]		gives: '<li class="page-item active"></li>'!
+
+testPageItemDisabled	self		assert: [ :html | html pageItem beDisabled ]		gives: '<li class="page-item disabled"></li>'!
+
+testPageItemWithContent	self		assert: [ :html | html pageItem: 'Bootstrap' ]		gives: '<li class="page-item">Bootstrap</li>'!
+
+testPageLink	self		assert: [ :html | html pageLink ]		gives: '<a class="page-link"></a>'!
+
+testPageLinkWithContent	self		assert: [ :html | html pageLink: 'Bootstrap' ]		gives: '<a class="page-link">Bootstrap</a>'!
+
+testPagination	self		assert: [ :html | html pagination ]		gives: '<ul class="pagination"></ul>'!
+
+testPaginationLarge	self		assert: [ :html | html pagination beLarge ]		gives: '<ul class="pagination pagination-lg"></ul>'!
+
+testPaginationSmall	self		assert: [ :html | html pagination beSmall ]		gives: '<ul class="pagination pagination-sm"></ul>'!
+
+testPaginationWithContent	self		assert: [ :html | html pagination: 'Bootstrap' ]		gives: '<ul class="pagination">Bootstrap</ul>'!
+
+testProgress	self		assert: [ :html | html progress ]		gives: '<div class="progress"></div>'!
+
+testProgressBar	self		assert: [ :html | html progressBar ]		gives: '<div class="progress-bar"></div>'!
+
+testProgressBarStriped	self		assert: [ :html | html progressBar beStriped ]		gives: '<div class="progress-bar progress-bar-striped"></div>'!
+
+testProgressBarValueNow	self		assert: [ :html | html progressBar valueNow: 75 ]		gives: '<div class="progress-bar" style="width: 75%"></div>'!
+
+testProgressBarWithContent	self		assert: [ :html | html progressBar: 'Bootstrap' ]		gives: '<div class="progress-bar">Bootstrap</div>'!
+
+testProgressWithContent	self		assert: [ :html | html progress: 'Bootstrap' ]		gives: '<div class="progress">Bootstrap</div>'!
+
+testRow	self		assert: [ :html | html row ]		gives: '<div class="row"></div>'!
+
+testRowNoGutters	self		assert: [ :html | html row noGutters ]		gives: '<div class="row no-gutters"></div>'!
+
+testRowWithContent	self		assert: [ :html | html row: 'Bootstrap' ]		gives: '<div class="row">Bootstrap</div>'!
+
+testTabContent	self		assert: [:html | html tabContent ]		gives: '<div class="tab-content"></div>'!
+
+testTabContentWithContent	self		assert: [:html | html tabContent: 'Bootstrap' ]		gives: '<div class="tab-content">Bootstrap</div>'!
+
+testTextMuted	self		assert: [:html | html small textMuted ]		gives: '<small class="text-muted"></small>'! !
+
+!SBSCanvasBrushTest categoriesForMethods!
+testAccordion!public!tests / accordion! !
+testAccordionBody!public!tests / accordion! !
+testAccordionBodyWithContent!public!tests / accordion! !
+testAccordionButton!public!tests / accordion! !
+testAccordionButtonWithContent!public!tests / accordion! !
+testAccordionCollapse!public!tests / accordion! !
+testAccordionCollapseWithContent!public!tests / accordion! !
+testAccordionHeading!public!tests / accordion! !
+testAccordionHeadingWithContent!public!tests / accordion! !
+testAccordionItem!public!tests / accordion! !
+testAccordionItemWithContent!public!tests / accordion! !
+testAccordionWithContent!public!tests / accordion! !
+testActionBadge!public!tests / badges! !
+testActionBadgeDanger!public!tests / badges / options! !
+testActionBadgeDark!public!tests / badges / options! !
+testActionBadgeInfo!public!tests / badges / options! !
+testActionBadgeLight!public!tests / badges / options! !
+testActionBadgePrimary!public!tests / badges / options! !
+testActionBadgeSecondary!public!tests / badges / options! !
+testActionBadgeSuccess!public!tests / badges / options! !
+testActionBadgeWarning!public!tests / badges / options! !
+testActionBadgeWithContent!public!tests / badges! !
+testAlert!public!tests / alerts! !
+testAlertDanger!public!tests / alerts / options! !
+testAlertDark!public!tests / alerts / options! !
+testAlertDismissible!public!tests / alerts / options! !
+testAlertHeading!public!tests / alerts! !
+testAlertHeadingWithContent!public!tests / alerts! !
+testAlertInfo!public!tests / alerts / options! !
+testAlertLight!public!tests / alerts / options! !
+testAlertLink!public!tests / alerts! !
+testAlertLinkWithContent!public!tests / alerts! !
+testAlertPrimary!public!tests / alerts / options! !
+testAlertSecondary!public!tests / alerts / options! !
+testAlertSuccess!public!tests / alerts / options! !
+testAlertWarning!public!tests / alerts / options! !
+testAlertWithContent!public!tests / alerts! !
+testBadge!public!tests / badges! !
+testBadgeDanger!public!tests / badges / options! !
+testBadgeDark!public!tests / badges / options! !
+testBadgeInfo!public!tests / badges / options! !
+testBadgeLight!public!tests / badges / options! !
+testBadgePrimary!public!tests / badges / options! !
+testBadgeSecondary!public!tests / badges / options! !
+testBadgeSuccess!public!tests / badges / options! !
+testBadgeWarning!public!tests / badges / options! !
+testBadgeWithContent!public!tests / badges! !
+testBreadcrumb!public!tests / breadcrumb! !
+testBreadcrumbItem!public!tests / breadcrumb! !
+testBreadcrumbItemWithContent!public!tests / breadcrumb! !
+testBreadcrumbWithContent!public!tests / breadcrumb! !
+testButton!public!tests / buttons! !
+testButtonActive!public!tests / buttons / options! !
+testButtonBlock!public!tests / buttons / sizes! !
+testButtonDanger!public!tests / buttons / options! !
+testButtonDark!public!tests / buttons / options! !
+testButtonDataTarget!public!tests / buttons / options! !
+testButtonDataToggle!public!tests / buttons / options! !
+testButtonDisabled!public!tests / buttons / options! !
+testButtonDropdown!public!tests / buttons / options! !
+testButtonDropdownSplitted!public!tests / buttons / options! !
+testButtonGroup!public!tests / buttongroups! !
+testButtonGroupAriaLabel!public!tests / buttongroups / options! !
+testButtonGroupGroupRole!public!tests / buttongroups / options! !
+testButtonGroupLarge!public!tests / buttongroups / options! !
+testButtonGroupSmall!public!tests / buttongroups / options! !
+testButtonGroupToolbarRole!public!tests / buttongroups / options! !
+testButtonGroupVertical!public!tests / buttongroups! !
+testButtonGroupVerticalWithContent!public!tests / buttongroups! !
+testButtonGroupWithContent!public!tests / buttongroups! !
+testButtonInfo!public!tests / buttons / options! !
+testButtonLarge!public!tests / buttons / sizes! !
+testButtonLight!public!tests / buttons / options! !
+testButtonLink!public!tests / buttons / options! !
+testButtonPrimary!public!tests / buttons / options! !
+testButtonSecondary!public!tests / buttons / options! !
+testButtonSmall!public!tests / buttons / sizes! !
+testButtonSuccess!public!tests / buttons / options! !
+testButtonToolbar!public!tests / buttontoolbar! !
+testButtonToolbarWithContent!public!tests / buttontoolbar! !
+testButtonWarning!public!tests / buttons / options! !
+testButtonWithContent!public!tests / buttons! !
+testCard!public!tests / cards! !
+testCardBody!public!tests / cards! !
+testCardBodyWithContent!public!tests / cards! !
+testCardColumns!public!tests / cards! !
+testCardColumnsWithContent!public!tests / cards! !
+testCardDeck!public!tests / cards! !
+testCardDeckWithContent!public!tests / cards! !
+testCardDirectCardBody!public!tests / cards! !
+testCardDirectCardBodyWithContent!public!tests / cards! !
+testCardFooter!public!tests / cards! !
+testCardFooterWithContent!public!tests / cards! !
+testCardGroup!public!tests / cards! !
+testCardGroupWithContent!public!tests / cards! !
+testCardHeader!public!tests / cards! !
+testCardHeaderWithContent!public!tests / cards! !
+testCardImage!public!tests / cards! !
+testCardImageBottom!public!tests / cards! !
+testCardImageOverlay!public!tests / cards! !
+testCardImageOverlayWithContent!public!tests / cards! !
+testCardLink!public!tests / cards! !
+testCardLinkWithContent!public!tests / cards! !
+testCardSubtitle!public!tests / cards! !
+testCardSubtitleWithContent!public!tests / cards! !
+testCardText!public!tests / cards! !
+testCardTextWithContent!public!tests / cards! !
+testCardTitle!public!tests / cards! !
+testCardTitleWithContent!public!tests / cards! !
+testCardWithContent!public!tests / cards! !
+testCarousel!public!tests / carousel! !
+testCarouselAutoplay!public!tests / carousel! !
+testCarouselControlNext!public!tests / carousel! !
+testCarouselControlNextWithContent!public!tests / carousel! !
+testCarouselControlPrevious!public!tests / carousel! !
+testCarouselControlPreviousWithContent!public!tests / carousel! !
+testCarouselInner!public!tests / carousel! !
+testCarouselInnerWithContent!public!tests / carousel! !
+testCarouselItem!public!tests / carousel! !
+testCarouselItemWithContent!public!tests / carousel! !
+testCarouselWithContent!public!tests / carousel! !
+testCloseButton!public!tests / buttons! !
+testCloseButtonWithContent!public!tests / collapse! !
+testCollapse!public!tests / collapse! !
+testCollapseShow!public!tests / collapse / options! !
+testCollapseWithContent!public!tests / collapse! !
+testColumn!public!tests / layout! !
+testColumnExtraLargeSize!public!tests / layout / options! !
+testColumnExtraLargeVariableWidth!public!tests / layout / options! !
+testColumnExtraSmallSize!public!tests / layout / options! !
+testColumnLargeSize!public!tests / layout / options! !
+testColumnLargeVariableWidth!public!tests / layout / options! !
+testColumnMediumSize!public!tests / layout! !
+testColumnMediumVariableWidth!public!tests / layout / options! !
+testColumnSmallSize!public!tests / layout / options! !
+testColumnSmallVariableWidth!public!tests / layout / options! !
+testColumnVariableWidth!public!tests / layout / options! !
+testColumnWithContent!public!tests / layout! !
+testContainer!public!tests / container! !
+testContainerFluid!public!tests / container! !
+testContainerFluidWithContent!public!tests / container! !
+testContainerWithContent!public!tests / container! !
+testDisplayHeading!public!tests / headings! !
+testDropdown!public!tests / dropdown! !
+testDropdownDivider!public!tests / dropdown! !
+testDropdownDropLeft!public!tests / dropdown / options! !
+testDropdownDropRight!public!tests / dropdown / options! !
+testDropdownHeader!public!tests / dropdown! !
+testDropdownHeaderWithContent!public!tests / dropdown! !
+testDropdownItem!public!tests / dropdown! !
+testDropdownItemActive!public!tests / dropdown / options! !
+testDropdownItemDisabled!public!tests / dropdown / options! !
+testDropdownItemWithContent!public!tests / dropdown! !
+testDropdownMenu!public!tests / dropdown! !
+testDropdownMenuDropRight!public!tests / dropdown! !
+testDropdownShow!public!tests / dropdown / options! !
+testDropdownWithContent!public!tests / dropdown! !
+testDropup!public!tests / dropdown! !
+testDropupWithContent!public!tests / dropdown! !
+testEqualWidthColumn!public!tests / layout! !
+testEqualWidthColumnsOnMultipleRows!public!tests / layout! !
+testEqualWidthColumnWithContent!public!tests / layout! !
+testFontStylingOfHeading!public!tests / typography! !
+testFormCheckbox!public!tests / forms! !
+testFormCheckboxInline!public!tests / forms! !
+testFormCheckboxInlineWithContent!public!tests / forms! !
+testFormCheckboxWithContent!public!tests / forms! !
+testFormCheckLabel!public!tests / forms! !
+testFormCheckLabelWithContent!public!tests / forms! !
+testFormControl!public!tests / forms! !
+testFormControlOnSelect!public!tests / forms! !
+testFormControlOnTextArea!public!tests / forms! !
+testFormFileUpload!public!tests / forms! !
+testFormGroup!public!tests / forms! !
+testFormGroupCheck!public!tests / forms! !
+testFormGroupWithContent!public!tests / forms! !
+testFormInline!public!tests / forms! !
+testFormMultiSelect!public!tests / forms! !
+testFormMultiSelectWithContent!public!tests / forms! !
+testFormPasswordInput!public!tests / forms! !
+testFormPasswordInputWithContent!public!tests / forms! !
+testFormPlainTextInput!public!tests / forms! !
+testFormRadiobutton!public!tests / forms! !
+testFormRangeInput!public!tests / forms! !
+testFormSelect!public!tests / forms! !
+testFormSelectWithContent!public!tests / forms! !
+testFormTextArea!public!tests / forms! !
+testFormTextAreaWithContent!public!tests / forms! !
+testFormTextInput!public!tests / forms! !
+testFormTextInputWithContent!public!tests / forms! !
+testImageCentered!public!tests / image / options! !
+testImageCircle!public!tests / image / options! !
+testImageFloatLeft!public!tests / image / options! !
+testImageFloatRight!public!tests / image / options! !
+testImageFluid!public!tests / image! !
+testImageRounded!public!tests / image / options! !
+testImageThumbnail!public!tests / image / options! !
+testInputGroup!public!tests / inputgroup! !
+testInputGroupAppend!public!tests / inputgroup! !
+testInputGroupAppendWithContent!public!tests / inputgroup! !
+testInputGroupLarge!public!tests / inputgroup / options! !
+testInputGroupPrepend!public!tests / inputgroup! !
+testInputGroupPrependWithContent!public!tests / inputgroup! !
+testInputGroupSmall!public!tests / inputgroup / options! !
+testInputGroupText!public!tests / inputgroup! !
+testInputGroupTextWithContent!public!tests / inputgroup! !
+testInputGroupWithContent!public!tests / inputgroup! !
+testJumbotron!public!tests / jumbotron! !
+testJumbotronWithContent!public!tests / jumbotron! !
+testListGroup!public!tests / listgroups! !
+testListGroupFlush!public!tests / listgroups / options! !
+testListGroupHorizontal!public!tests / listgroups / options! !
+testListGroupHorizontalLarge!public!tests / listgroups / options! !
+testListGroupHorizontalMedium!public!tests / listgroups / options! !
+testListGroupHorizontalSmall!public!tests / listgroups / options! !
+testListGroupHorizontalVeryLarge!public!tests / listgroups / options! !
+testListGroupItem!public!tests / listgroups! !
+testListGroupItemActive!public!tests / listgroups / options! !
+testListGroupItemDanger!public!tests / listgroups / options! !
+testListGroupItemDark!public!tests / listgroups / options! !
+testListGroupItemDisabled!public!tests / listgroups / options! !
+testListGroupItemFlexFill!public!tests / listgroups / options! !
+testListGroupItemInfo!public!tests / listgroups / options! !
+testListGroupItemLight!public!tests / listgroups / options! !
+testListGroupItemPrimary!public!tests / listgroups / options! !
+testListGroupItemSecondary!public!tests / listgroups / options! !
+testListGroupItemSuccess!public!tests / listgroups / options! !
+testListGroupItemWarning!public!tests / listgroups / options! !
+testListGroupItemWithContent!public!tests / listgroups! !
+testListGroupLinkedItem!public!tests / listgroups! !
+testListGroupLinkedItemActive!public!tests / listgroups / options! !
+testListGroupLinkedItemDanger!public!tests / listgroups / options! !
+testListGroupLinkedItemDark!public!tests / listgroups / options! !
+testListGroupLinkedItemDisabled!public!tests / listgroups / options! !
+testListGroupLinkedItemInfo!public!tests / listgroups / options! !
+testListGroupLinkedItemLight!public!tests / listgroups / options! !
+testListGroupLinkedItemPrimary!public!tests / listgroups / options! !
+testListGroupLinkedItemSecondary!public!tests / listgroups / options! !
+testListGroupLinkedItemSuccess!public!tests / listgroups / options! !
+testListGroupLinkedItemWarning!public!tests / listgroups / options! !
+testListGroupLinkedItemWithContent!public!tests / listgroups! !
+testListGroupRemoveBorders!public!tests / listgroups! !
+testListGroupWithContent!public!tests / listgroups! !
+testMarginBottom!public!tests / spacing! !
+testMarginLeft!public!tests / spacing! !
+testMarginLeftAndRight!public!tests / spacing! !
+testMarginRight!public!tests / spacing! !
+testMarginTop!public!tests / spacing! !
+testMarginTopAndBottom!public!tests / spacing! !
+testModal!public!tests / modal! !
+testModalBody!public!tests / modal! !
+testModalBodyWithContent!public!tests / modal! !
+testModalCloseButton!public!tests / modal! !
+testModalContent!public!tests / modal! !
+testModalContentWithContent!public!tests / modal! !
+testModalDialog!public!tests / modal! !
+testModalDialogCentered!public!tests / modal / options! !
+testModalDialogWithContent!public!tests / modal! !
+testModalFade!public!tests / modal / options! !
+testModalFooter!public!tests / modal! !
+testModalFooterWithContent!public!tests / modal! !
+testModalHeader!public!tests / modal! !
+testModalHeaderWithContent!public!tests / modal! !
+testModalTitle!public!tests / modal! !
+testModalTitleWithContent!public!tests / modal! !
+testModalWithContent!public!tests / modal! !
+testNav!public!tests / navigation! !
+testNavigation!public!tests / navigation! !
+testNavigationBar!public!tests / navigation bar! !
+testNavigationBarBackgroundColor!public!tests / navigation bar / backgrounds! !
+testNavigationBarBackgroundColorString!public!tests / navigation bar / backgrounds! !
+testNavigationBarBackgroundDanger!public!tests / navigation bar / backgrounds! !
+testNavigationBarBackgroundDark!public!tests / navigation bar / backgrounds! !
+testNavigationBarBackgroundInfo!public!tests / navigation bar / backgrounds! !
+testNavigationBarBackgroundLight!public!tests / navigation bar / backgrounds! !
+testNavigationBarBackgroundPrimary!public!tests / navigation bar / backgrounds! !
+testNavigationBarBackgroundSuccess!public!tests / navigation bar / backgrounds! !
+testNavigationBarBackgroundWarning!public!tests / navigation bar / backgrounds! !
+testNavigationBarCollapse!public!tests / navigation bar! !
+testNavigationBarCollapseWithContent!public!tests / navigation bar! !
+testNavigationBarDark!public!tests / navigation bar / options! !
+testNavigationBarExpandExtraLarge!public!tests / navigation bar / options! !
+testNavigationBarExpandLarge!public!tests / navigation bar / options! !
+testNavigationBarExpandMiddle!public!tests / navigation bar / options! !
+testNavigationBarExpandSmall!public!tests / navigation bar / options! !
+testNavigationBarLight!public!tests / navigation bar / options! !
+testNavigationBarNavigation!public!tests / navigation bar! !
+testNavigationBarNavigationWithContent!public!tests / navigation bar! !
+testNavigationBarToggler!public!tests / navigation bar! !
+testNavigationBarTogglerButtonType!public!tests / navigation bar! !
+testNavigationBarTogglerCollapse!public!tests / navigation bar! !
+testNavigationBarTogglerDataTarget!public!tests / navigation bar! !
+testNavigationBarTogglerIcon!public!tests / navigation bar! !
+testNavigationBarTogglerWithContent!public!tests / navigation bar! !
+testNavigationBarWithContent!public!tests / navigation bar! !
+testNavigationBreadcrumb!public!tests / breadcrumb! !
+testNavigationFlex!public!tests / navigation / flexbox! !
+testNavigationFlexColumn!public!tests / navigation / flexbox! !
+testNavigationFlexColumnLarge!public!tests / navigation / flexbox! !
+testNavigationFlexColumnLargeReverse!public!tests / navigation / flexbox! !
+testNavigationFlexColumnMedium!public!tests / navigation / flexbox! !
+testNavigationFlexColumnMediumReverse!public!tests / navigation / flexbox! !
+testNavigationFlexColumnReverse!public!tests / navigation / flexbox! !
+testNavigationFlexColumnSmall!public!tests / navigation / flexbox! !
+testNavigationFlexColumnSmallReverse!public!tests / navigation / flexbox! !
+testNavigationFlexColumnVeryLarge!public!tests / navigation / flexbox! !
+testNavigationFlexColumnVeryLargeReverse!public!tests / navigation / flexbox! !
+testNavigationFlexInline!public!tests / navigation / flexbox! !
+testNavigationFlexLarge!public!tests / navigation / flexbox! !
+testNavigationFlexLargeInline!public!tests / navigation / flexbox! !
+testNavigationFlexMedium!public!tests / navigation / flexbox! !
+testNavigationFlexMediumInline!public!tests / navigation / flexbox! !
+testNavigationFlexRow!public!tests / navigation / flexbox! !
+testNavigationFlexRowLarge!public!tests / navigation / flexbox! !
+testNavigationFlexRowLargeReverse!public!tests / navigation / flexbox! !
+testNavigationFlexRowMedium!public!tests / navigation / flexbox! !
+testNavigationFlexRowMediumReverse!public!tests / navigation / flexbox! !
+testNavigationFlexRowReverse!public!tests / navigation / flexbox! !
+testNavigationFlexRowSmall!public!tests / navigation / flexbox! !
+testNavigationFlexRowSmallReverse!public!tests / navigation / flexbox! !
+testNavigationFlexRowVeryLarge!public!tests / navigation / flexbox! !
+testNavigationFlexRowVeryLargeReverse!public!tests / navigation / flexbox! !
+testNavigationFlexSmall!public!tests / navigation / flexbox! !
+testNavigationFlexSmallInline!public!tests / navigation / flexbox! !
+testNavigationFlexVeryLarge!public!tests / navigation / flexbox! !
+testNavigationFlexVeryLargeInline!public!tests / navigation / flexbox! !
+testNavigationItem!public!tests / navigation! !
+testNavigationItemActive!public!tests / navigation! !
+testNavigationItemDropdown!public!tests / navigation! !
+testNavigationItemWithContent!public!tests / navigation! !
+testNavigationJustifyContentAround!public!tests / navigation / justification! !
+testNavigationJustifyContentAroundLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentAroundMedium!public!tests / navigation / justification! !
+testNavigationJustifyContentAroundSmall!public!tests / navigation / justification! !
+testNavigationJustifyContentAroundVeryLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentBetween!public!tests / navigation / justification! !
+testNavigationJustifyContentBetweenLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentBetweenMedium!public!tests / navigation / justification! !
+testNavigationJustifyContentBetweenSmall!public!tests / navigation / justification! !
+testNavigationJustifyContentBetweenVeryLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentCenter!public!tests / navigation / justification! !
+testNavigationJustifyContentCenterLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentCenterMedium!public!tests / navigation / justification! !
+testNavigationJustifyContentCenterSmall!public!tests / navigation / justification! !
+testNavigationJustifyContentCenterVeryLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentEnd!public!tests / navigation / justification! !
+testNavigationJustifyContentEndLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentEndMedium!public!tests / navigation / justification! !
+testNavigationJustifyContentEndSmall!public!tests / navigation / justification! !
+testNavigationJustifyContentEndVeryLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentStart!public!tests / navigation / justification! !
+testNavigationJustifyContentStartLarge!public!tests / navigation / justification! !
+testNavigationJustifyContentStartMedium!public!tests / navigation / justification! !
+testNavigationJustifyContentStartSmall!public!tests / navigation / justification! !
+testNavigationJustifyContentStartVeryLarge!public!tests / navigation / justification! !
+testNavigationLink!public!tests / navigation! !
+testNavigationLinkActive!public!tests / navigation / options! !
+testNavigationLinkDisabled!public!tests / navigation / options! !
+testNavigationLinkDropdownToggle!public!tests / navigation / options! !
+testNavigationLinkWithContent!public!tests / navigation! !
+testNavigationList!public!tests / navigation! !
+testNavigationListWithContent!public!tests / navigation! !
+testNavigationWithContent!public!tests / navigation! !
+testNavWithContent!public!tests / navigation! !
+testOutlineButton!public!tests / buttons! !
+testOutlineButtonBlock!public!tests / buttons / sizes! !
+testOutlineButtonDanger!public!tests / buttons / options! !
+testOutlineButtonDark!public!tests / buttons / options! !
+testOutlineButtonInfo!public!tests / buttons / options! !
+testOutlineButtonLarge!public!tests / buttons / sizes! !
+testOutlineButtonLight!public!tests / buttons / options! !
+testOutlineButtonPrimary!public!tests / buttons / options! !
+testOutlineButtonSecondary!public!tests / buttons / options! !
+testOutlineButtonSmall!public!tests / buttons / sizes! !
+testOutlineButtonSuccess!public!tests / buttons / options! !
+testOutlineButtonWarning!public!tests / buttons / options! !
+testOutlineButtonWithContent!public!tests / buttons! !
+testPaddingBottom!public!tests / spacing! !
+testPaddingLeft!public!tests / spacing! !
+testPaddingLeftAndRight!public!tests / spacing! !
+testPaddingRight!public!tests / spacing! !
+testPaddingTop!public!tests / spacing! !
+testPaddingTopAndBottom!public!tests / spacing! !
+testPageItem!public!tests / pagination! !
+testPageItemActive!public!tests / pagination / options! !
+testPageItemDisabled!public!tests / pagination / options! !
+testPageItemWithContent!public!tests / pagination! !
+testPageLink!public!tests / pagination! !
+testPageLinkWithContent!public!tests / pagination! !
+testPagination!public!tests / pagination! !
+testPaginationLarge!public!tests / pagination / options! !
+testPaginationSmall!public!tests / pagination / options! !
+testPaginationWithContent!public!tests / pagination! !
+testProgress!public!tests / progressbar! !
+testProgressBar!public!tests / progressbar! !
+testProgressBarStriped!public!tests / progressbar! !
+testProgressBarValueNow!public!tests / progressbar! !
+testProgressBarWithContent!public!tests / progressbar! !
+testProgressWithContent!public!tests / progressbar! !
+testRow!public!tests / layout! !
+testRowNoGutters!public!tests / layout / options! !
+testRowWithContent!public!tests / layout! !
+testTabContent!public!tests / tabs! !
+testTabContentWithContent!public!tests / tabs! !
+testTextMuted!public!tests / typography! !
+!
+
+!SBSDeploymentLibraryTest methodsFor!
+
+testIncludeBootstrapMinCSSByDefault	self assert: (SBSDeploymentLibrary new selectorsToInclude includes: #cssbootstrapminCss)! !
+
+!SBSDeploymentLibraryTest categoriesForMethods!
+testIncludeBootstrapMinCSSByDefault!public!tests! !
+!
+
+!SBSDevelopmentLibraryTest methodsFor!
+
+testIncludeBootstrapCSSByDefault	self assert: (SBSDevelopmentLibrary new selectorsToInclude includes: #cssbootstrapCss)! !
+
+!SBSDevelopmentLibraryTest categoriesForMethods!
+testIncludeBootstrapCSSByDefault!public!tests! !
+!
+
+!SBSRootComponentTest methodsFor!
+
+testCanBeRoot	self assert: SBSRootComponent canBeRoot! !
+
+!SBSRootComponentTest categoriesForMethods!
+testCanBeRoot!public!tests! !
+!
+
+!SBSTColumnSelfAlignmentTest methodsFor!
+
+testEqualWidthColumnAlignCenter	self		assert: [ :html | html equalWidthColumn alignCenter ]		gives: '<div class="col align-self-center"></div>'!
+
+testEqualWidthColumnAlignEnd	self		assert: [ :html | html equalWidthColumn alignEnd ]		gives: '<div class="col align-self-end"></div>'!
+
+testEqualWidthColumnAlignStart	self		assert: [ :html | html equalWidthColumn alignStart ]		gives: '<div class="col align-self-start"></div>'! !
+
+!SBSTColumnSelfAlignmentTest categoriesForMethods!
+testEqualWidthColumnAlignCenter!public!tests / layout / alignment vertical! !
+testEqualWidthColumnAlignEnd!public!tests / layout / alignment vertical! !
+testEqualWidthColumnAlignStart!public!tests / layout / alignment vertical! !
+!
+
+!SBSTContentJustificationTest methodsFor!
+
+testRowJustifyContentAround	self		assert: [ :html | html row justifyContentAround ]		gives: '<div class="row justify-content-around"></div>'!
+
+testRowJustifyContentAroundLarge	self		assert: [ :html | html row justifyContentAroundLarge ]		gives: '<div class="row justify-content-lg-around"></div>'!
+
+testRowJustifyContentAroundMedium	self		assert: [ :html | html row justifyContentAroundMedium ]		gives: '<div class="row justify-content-md-around"></div>'!
+
+testRowJustifyContentAroundSmall	self		assert: [ :html | html row justifyContentAroundSmall ]		gives: '<div class="row justify-content-sm-around"></div>'!
+
+testRowJustifyContentAroundVeryLarge	self		assert: [ :html | html row justifyContentAroundVeryLarge ]		gives: '<div class="row justify-content-xl-around"></div>'!
+
+testRowJustifyContentBetween	self		assert: [ :html | html row justifyContentBetween ]		gives: '<div class="row justify-content-between"></div>'!
+
+testRowJustifyContentBetweenLarge	self		assert: [ :html | html row justifyContentBetweenLarge ]		gives: '<div class="row justify-content-lg-between"></div>'!
+
+testRowJustifyContentBetweenMedium	self		assert: [ :html | html row justifyContentBetweenMedium ]		gives: '<div class="row justify-content-md-between"></div>'!
+
+testRowJustifyContentBetweenSmall	self		assert: [ :html | html row justifyContentBetweenSmall ]		gives: '<div class="row justify-content-sm-between"></div>'!
+
+testRowJustifyContentBetweenVeryLarge	self		assert: [ :html | html row justifyContentBetweenVeryLarge ]		gives: '<div class="row justify-content-xl-between"></div>'!
+
+testRowJustifyContentCenter	self		assert: [ :html | html row justifyContentCenter ]		gives: '<div class="row justify-content-center"></div>'!
+
+testRowJustifyContentCenterLarge	self		assert: [ :html | html row justifyContentCenterLarge ]		gives: '<div class="row justify-content-lg-center"></div>'!
+
+testRowJustifyContentCenterMedium	self		assert: [ :html | html row justifyContentCenterMedium ]		gives: '<div class="row justify-content-md-center"></div>'!
+
+testRowJustifyContentCenterSmall	self		assert: [ :html | html row justifyContentCenterSmall ]		gives: '<div class="row justify-content-sm-center"></div>'!
+
+testRowJustifyContentCenterVeryLarge	self		assert: [ :html | html row justifyContentCenterVeryLarge ]		gives: '<div class="row justify-content-xl-center"></div>'!
+
+testRowJustifyContentEnd	self		assert: [ :html | html row justifyContentEnd ]		gives: '<div class="row justify-content-end"></div>'!
+
+testRowJustifyContentEndLarge	self		assert: [ :html | html row justifyContentEndLarge ]		gives: '<div class="row justify-content-lg-end"></div>'!
+
+testRowJustifyContentEndMedium	self		assert: [ :html | html row justifyContentEndMedium ]		gives: '<div class="row justify-content-md-end"></div>'!
+
+testRowJustifyContentEndSmall	self		assert: [ :html | html row justifyContentEndSmall ]		gives: '<div class="row justify-content-sm-end"></div>'!
+
+testRowJustifyContentEndVeryLarge	self		assert: [ :html | html row justifyContentEndVeryLarge ]		gives: '<div class="row justify-content-xl-end"></div>'!
+
+testRowJustifyContentStart	self		assert: [ :html | html row justifyContentStart ]		gives: '<div class="row justify-content-start"></div>'! !
+
+!SBSTContentJustificationTest categoriesForMethods!
+testRowJustifyContentAround!public!tests / layout / positioning! !
+testRowJustifyContentAroundLarge!public!tests / layout / positioning! !
+testRowJustifyContentAroundMedium!public!tests / layout / positioning! !
+testRowJustifyContentAroundSmall!public!tests / layout / positioning! !
+testRowJustifyContentAroundVeryLarge!public!tests / layout / positioning! !
+testRowJustifyContentBetween!public!tests / layout / positioning! !
+testRowJustifyContentBetweenLarge!public!tests / layout / positioning! !
+testRowJustifyContentBetweenMedium!public!tests / layout / positioning! !
+testRowJustifyContentBetweenSmall!public!tests / layout / positioning! !
+testRowJustifyContentBetweenVeryLarge!public!tests / layout / positioning! !
+testRowJustifyContentCenter!public!tests / layout / positioning! !
+testRowJustifyContentCenterLarge!public!tests / layout / positioning! !
+testRowJustifyContentCenterMedium!public!tests / layout / positioning! !
+testRowJustifyContentCenterSmall!public!tests / layout / positioning! !
+testRowJustifyContentCenterVeryLarge!public!tests / layout / positioning! !
+testRowJustifyContentEnd!public!tests / layout / positioning! !
+testRowJustifyContentEndLarge!public!tests / layout / positioning! !
+testRowJustifyContentEndMedium!public!tests / layout / positioning! !
+testRowJustifyContentEndSmall!public!tests / layout / positioning! !
+testRowJustifyContentEndVeryLarge!public!tests / layout / positioning! !
+testRowJustifyContentStart!public!tests / layout / positioning! !
+!
+
+!SBSTextColorTests methodsFor!
+
+testAnchorDangerText	self		assert: [ :html | html anchor dangerText ]		gives: '<a class="text-danger"></a>'!
+
+testAnchorDarkText	self		assert: [ :html | html anchor darkText ]		gives: '<a class="text-dark"></a>'!
+
+testAnchorInfoText	self		assert: [ :html | html anchor infoText ]		gives: '<a class="text-info"></a>'!
+
+testAnchorLightText	self		assert: [ :html | html anchor lightText ]		gives: '<a class="text-light"></a>'!
+
+testAnchorMutedText	self		assert: [ :html | html anchor mutedText ]		gives: '<a class="text-muted"></a>'!
+
+testAnchorPrimaryText	self		assert: [ :html | html anchor primaryText ]		gives: '<a class="text-primary"></a>'!
+
+testAnchorSecondaryText	self		assert: [ :html | html anchor secondaryText ]		gives: '<a class="text-secondary"></a>'!
+
+testAnchorSuccessText	self		assert: [ :html | html anchor successText ]		gives: '<a class="text-success"></a>'!
+
+testAnchorWarningText	self		assert: [ :html | html anchor warningText ]		gives: '<a class="text-warning"></a>'!
+
+testAnchorWhiteText	self		assert: [ :html | html anchor whiteText ]		gives: '<a class="text-white"></a>'!
+
+testHeadingDangerText	self		assert: [ :html | html heading dangerText ]		gives: '<h1 class="text-danger"></h1>'!
+
+testHeadingDarkText	self		assert: [ :html | html heading darkText ]		gives: '<h1 class="text-dark"></h1>'!
+
+testHeadingInfoText	self		assert: [ :html | html heading infoText ]		gives: '<h1 class="text-info"></h1>'!
+
+testHeadingLightText	self		assert: [ :html | html heading lightText ]		gives: '<h1 class="text-light"></h1>'!
+
+testHeadingMutedText	self		assert: [ :html | html heading mutedText ]		gives: '<h1 class="text-muted"></h1>'!
+
+testHeadingPrimaryText	self		assert: [ :html | html heading primaryText ]		gives: '<h1 class="text-primary"></h1>'!
+
+testHeadingSecondaryText	self		assert: [ :html | html heading secondaryText ]		gives: '<h1 class="text-secondary"></h1>'!
+
+testHeadingSuccessText	self		assert: [ :html | html heading successText ]		gives: '<h1 class="text-success"></h1>'!
+
+testHeadingWarningText	self		assert: [ :html | html heading warningText ]		gives: '<h1 class="text-warning"></h1>'!
+
+testHeadingWhiteText	self		assert: [ :html | html heading whiteText ]		gives: '<h1 class="text-white"></h1>'!
+
+testParagraphDangerText	self		assert: [ :html | html paragraph dangerText ]		gives: '<p class="text-danger"></p>'!
+
+testParagraphDarkText	self		assert: [ :html | html paragraph darkText ]		gives: '<p class="text-dark"></p>'!
+
+testParagraphInfoText	self		assert: [ :html | html paragraph infoText ]		gives: '<p class="text-info"></p>'!
+
+testParagraphLightText	self		assert: [ :html | html paragraph lightText ]		gives: '<p class="text-light"></p>'!
+
+testParagraphMutedText	self		assert: [ :html | html paragraph mutedText ]		gives: '<p class="text-muted"></p>'!
+
+testParagraphPrimaryText	self		assert: [ :html | html paragraph primaryText ]		gives: '<p class="text-primary"></p>'!
+
+testParagraphSecondaryText	self		assert: [ :html | html paragraph secondaryText ]		gives: '<p class="text-secondary"></p>'!
+
+testParagraphSuccessText	self		assert: [ :html | html paragraph successText ]		gives: '<p class="text-success"></p>'!
+
+testParagraphWarningText	self		assert: [ :html | html paragraph warningText ]		gives: '<p class="text-warning"></p>'!
+
+testParagraphWhiteText	self		assert: [ :html | html paragraph whiteText ]		gives: '<p class="text-white"></p>'! !
+
+!SBSTextColorTests categoriesForMethods!
+testAnchorDangerText!public!tests / anchors! !
+testAnchorDarkText!public!tests / anchors! !
+testAnchorInfoText!public!tests / anchors! !
+testAnchorLightText!public!tests / anchors! !
+testAnchorMutedText!public!tests / anchors! !
+testAnchorPrimaryText!public!tests / anchors! !
+testAnchorSecondaryText!public!tests / anchors! !
+testAnchorSuccessText!public!tests / anchors! !
+testAnchorWarningText!public!tests / anchors! !
+testAnchorWhiteText!public!tests / anchors! !
+testHeadingDangerText!public!tests / headings! !
+testHeadingDarkText!public!tests / headings! !
+testHeadingInfoText!public!tests / headings! !
+testHeadingLightText!public!tests / headings! !
+testHeadingMutedText!public!tests / headings! !
+testHeadingPrimaryText!public!tests / headings! !
+testHeadingSecondaryText!public!tests / headings! !
+testHeadingSuccessText!public!tests / headings! !
+testHeadingWarningText!public!tests / headings! !
+testHeadingWhiteText!public!tests / anchors! !
+testParagraphDangerText!public!tests / paragraphs! !
+testParagraphDarkText!public!tests / paragraphs! !
+testParagraphInfoText!public!tests / paragraphs! !
+testParagraphLightText!public!tests / paragraphs! !
+testParagraphMutedText!public!tests / paragraphs! !
+testParagraphPrimaryText!public!tests / paragraphs! !
+testParagraphSecondaryText!public!tests / paragraphs! !
+testParagraphSuccessText!public!tests / paragraphs! !
+testParagraphWarningText!public!tests / paragraphs! !
+testParagraphWhiteText!public!tests / paragraphs! !
+!
+
+!SBSTOffsettingTest methodsFor!
+
+testEqualWidthColumnExtraLargeOffset	self		assert: [ :html | html equalWidthColumn extraLargeOffset: 1 ]		gives: '<div class="col offset-xl-1"></div>'!
+
+testEqualWidthColumnExtraSmallOffset	self		assert: [ :html | html equalWidthColumn extraSmallOffset: 1 ]		gives: '<div class="col offset-1"></div>'!
+
+testEqualWidthColumnLargeOffset	self		assert: [ :html | html equalWidthColumn largeOffset: 1 ]		gives: '<div class="col offset-lg-1"></div>'!
+
+testEqualWidthColumnMediumOffset	self		assert: [ :html | html equalWidthColumn mediumOffset: 1 ]		gives: '<div class="col offset-md-1"></div>'!
+
+testEqualWidthColumnOffset	self		assert: [ :html | html equalWidthColumn offset: 1 ]		gives: '<div class="col offset-1"></div>'!
+
+testEqualWidthColumnSmallOffset	self		assert: [ :html | html equalWidthColumn smallOffset: 1 ]		gives: '<div class="col offset-sm-1"></div>'! !
+
+!SBSTOffsettingTest categoriesForMethods!
+testEqualWidthColumnExtraLargeOffset!public!tests / layout / offsetting! !
+testEqualWidthColumnExtraSmallOffset!public!tests / layout / offsetting! !
+testEqualWidthColumnLargeOffset!public!tests / layout / offsetting! !
+testEqualWidthColumnMediumOffset!public!tests / layout / offsetting! !
+testEqualWidthColumnOffset!public!tests / layout / offsetting! !
+testEqualWidthColumnSmallOffset!public!tests / layout / offsetting! !
+!
+
+!SBSTRowItemAlignmentTest methodsFor!
+
+testRowAlignItemsBaseline	self		assert: [ :html | html row alignItemsBaseline ]		gives: '<div class="row align-items-baseline"></div>'!
+
+testRowAlignItemsBaselineLarge	self		assert: [ :html | html row alignItemsBaselineLarge ]		gives: '<div class="row align-items-lg-baseline"></div>'!
+
+testRowAlignItemsBaselineMedium	self		assert: [ :html | html row alignItemsBaselineMedium ]		gives: '<div class="row align-items-md-baseline"></div>'!
+
+testRowAlignItemsBaselineSmall	self		assert: [ :html | html row alignItemsBaselineSmall ]		gives: '<div class="row align-items-sm-baseline"></div>'!
+
+testRowAlignItemsBaselineVeryLarge	self		assert: [ :html | html row alignItemsBaselineVeryLarge ]		gives: '<div class="row align-items-xl-baseline"></div>'!
+
+testRowAlignItemsCenter	self		assert: [ :html | html row alignItemsCenter ]		gives: '<div class="row align-items-center"></div>'!
+
+testRowAlignItemsCenterLarge	self		assert: [ :html | html row alignItemsCenterLarge ]		gives: '<div class="row align-items-lg-center"></div>'!
+
+testRowAlignItemsCenterMedium	self		assert: [ :html | html row alignItemsCenterMedium ]		gives: '<div class="row align-items-md-center"></div>'!
+
+testRowAlignItemsCenterSmall	self		assert: [ :html | html row alignItemsCenterSmall ]		gives: '<div class="row align-items-sm-center"></div>'!
+
+testRowAlignItemsCenterVeryLarge	self		assert: [ :html | html row alignItemsCenterVeryLarge ]		gives: '<div class="row align-items-xl-center"></div>'!
+
+testRowAlignItemsEnd	self		assert: [ :html | html row alignItemsEnd ]		gives: '<div class="row align-items-end"></div>'!
+
+testRowAlignItemsEndLarge	self		assert: [ :html | html row alignItemsEndLarge ]		gives: '<div class="row align-items-lg-end"></div>'!
+
+testRowAlignItemsEndMedium	self		assert: [ :html | html row alignItemsEndMedium ]		gives: '<div class="row align-items-md-end"></div>'!
+
+testRowAlignItemsEndSmall	self		assert: [ :html | html row alignItemsEndSmall ]		gives: '<div class="row align-items-sm-end"></div>'!
+
+testRowAlignItemsEndVeryLarge	self		assert: [ :html | html row alignItemsEndVeryLarge ]		gives: '<div class="row align-items-xl-end"></div>'!
+
+testRowAlignItemsStart	self		assert: [ :html | html row alignItemsStart ]		gives: '<div class="row align-items-start"></div>'!
+
+testRowAlignItemsStartLarge	self		assert: [ :html | html row alignItemsStartLarge ]		gives: '<div class="row align-items-lg-start"></div>'!
+
+testRowAlignItemsStartMedium	self		assert: [ :html | html row alignItemsStartMedium ]		gives: '<div class="row align-items-md-start"></div>'!
+
+testRowAlignItemsStartSmall	self		assert: [ :html | html row alignItemsStartSmall ]		gives: '<div class="row align-items-sm-start"></div>'!
+
+testRowAlignItemsStartVeryLarge	self		assert: [ :html | html row alignItemsStartVeryLarge ]		gives: '<div class="row align-items-xl-start"></div>'!
+
+testRowAlignItemsStretch	self		assert: [ :html | html row alignItemsStretch ]		gives: '<div class="row align-items-stretch"></div>'!
+
+testRowAlignItemsStretchLarge	self		assert: [ :html | html row alignItemsStretchLarge ]		gives: '<div class="row align-items-lg-stretch"></div>'!
+
+testRowAlignItemsStretchMedium	self		assert: [ :html | html row alignItemsStretchMedium ]		gives: '<div class="row align-items-md-stretch"></div>'!
+
+testRowAlignItemsStretchSmall	self		assert: [ :html | html row alignItemsStretchSmall ]		gives: '<div class="row align-items-sm-stretch"></div>'!
+
+testRowAlignItemsStretchVeryLarge	self		assert: [ :html | html row alignItemsStretchVeryLarge ]		gives: '<div class="row align-items-xl-stretch"></div>'! !
+
+!SBSTRowItemAlignmentTest categoriesForMethods!
+testRowAlignItemsBaseline!public!tests / layout / alignment vertical! !
+testRowAlignItemsBaselineLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsBaselineMedium!public!tests / layout / alignment vertical! !
+testRowAlignItemsBaselineSmall!public!tests / layout / alignment vertical! !
+testRowAlignItemsBaselineVeryLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsCenter!public!tests / layout / alignment vertical! !
+testRowAlignItemsCenterLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsCenterMedium!public!tests / layout / alignment vertical! !
+testRowAlignItemsCenterSmall!public!tests / layout / alignment vertical! !
+testRowAlignItemsCenterVeryLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsEnd!public!tests / layout / alignment vertical! !
+testRowAlignItemsEndLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsEndMedium!public!tests / layout / alignment vertical! !
+testRowAlignItemsEndSmall!public!tests / layout / alignment vertical! !
+testRowAlignItemsEndVeryLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsStart!public!tests / layout / alignment vertical! !
+testRowAlignItemsStartLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsStartMedium!public!tests / layout / alignment vertical! !
+testRowAlignItemsStartSmall!public!tests / layout / alignment vertical! !
+testRowAlignItemsStartVeryLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsStretch!public!tests / layout / alignment vertical! !
+testRowAlignItemsStretchLarge!public!tests / layout / alignment vertical! !
+testRowAlignItemsStretchMedium!public!tests / layout / alignment vertical! !
+testRowAlignItemsStretchSmall!public!tests / layout / alignment vertical! !
+testRowAlignItemsStretchVeryLarge!public!tests / layout / alignment vertical! !
+!
+
+!SBSTVisualOrderTest methodsFor!
+
+testEqualWidthColumnExtraLargeOrdered	self		assert: [ :html | html equalWidthColumn extraLargeOrder: 1 ]		gives: '<div class="col order-xl-1"></div>'!
+
+testEqualWidthColumnExtraSmallOrdered	self		assert: [ :html | html equalWidthColumn extraSmallOrder: 1 ]		gives: '<div class="col order-1"></div>'!
+
+testEqualWidthColumnLargeOrdered	self		assert: [ :html | html equalWidthColumn largeOrder: 1 ]		gives: '<div class="col order-lg-1"></div>'!
+
+testEqualWidthColumnMediumOrdered	self		assert: [ :html | html equalWidthColumn mediumOrder: 1 ]		gives: '<div class="col order-md-1"></div>'!
+
+testEqualWidthColumnOrdered	self		assert: [ :html | html equalWidthColumn order: 1 ]		gives: '<div class="col order-1"></div>'!
+
+testEqualWidthColumnOrderedFirst	self		assert: [ :html | html equalWidthColumn orderFirst ]		gives: '<div class="col order-first"></div>'!
+
+testEqualWidthColumnOrderedLast	self		assert: [ :html | html equalWidthColumn orderLast ]		gives: '<div class="col order-last"></div>'!
+
+testEqualWidthColumnSmallOrdered	self		assert: [ :html | html equalWidthColumn smallOrder: 1 ]		gives: '<div class="col order-sm-1"></div>'! !
+
+!SBSTVisualOrderTest categoriesForMethods!
+testEqualWidthColumnExtraLargeOrdered!public!tests / layout / ordering! !
+testEqualWidthColumnExtraSmallOrdered!public!tests / layout / ordering! !
+testEqualWidthColumnLargeOrdered!public!tests / layout / ordering! !
+testEqualWidthColumnMediumOrdered!public!tests / layout / ordering! !
+testEqualWidthColumnOrdered!public!tests / layout / ordering! !
+testEqualWidthColumnOrderedFirst!public!tests / layout / ordering! !
+testEqualWidthColumnOrderedLast!public!tests / layout / ordering! !
+testEqualWidthColumnSmallOrdered!public!tests / layout / ordering! !
+!
+
+"End of package definition"!
+

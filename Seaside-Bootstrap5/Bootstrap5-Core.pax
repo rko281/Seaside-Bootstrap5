@@ -1,0 +1,1004 @@
+﻿| package |
+package := Package name: 'Bootstrap5-Core'.
+package paxVersion: 1;
+	basicComment: ''.
+
+package classNames
+	add: #SBSAbstractCanvasBrushTest;
+	add: #SBSAccordionBodyTag;
+	add: #SBSAccordionButtonTag;
+	add: #SBSAccordionCollapseTag;
+	add: #SBSAccordionHeadingTag;
+	add: #SBSAccordionItemTag;
+	add: #SBSAccordionTag;
+	add: #SBSActionableBadgeTag;
+	add: #SBSAlertHeadingTag;
+	add: #SBSAlertLinkTag;
+	add: #SBSAlertTag;
+	add: #SBSAnchorTag;
+	add: #SBSBackgroundColorTests;
+	add: #SBSBadgeTag;
+	add: #SBSBreadcrumbSectionTag;
+	add: #SBSButtonGroupTag;
+	add: #SBSButtonGroupVerticalTag;
+	add: #SBSButtonTag;
+	add: #SBSButtonToolbarTag;
+	add: #SBSCanvasBrushTest;
+	add: #SBSCardBodyTag;
+	add: #SBSCardColumnsTag;
+	add: #SBSCardDeckTag;
+	add: #SBSCardFooterTag;
+	add: #SBSCardGroupTag;
+	add: #SBSCardHeaderTag;
+	add: #SBSCardImageBottomTag;
+	add: #SBSCardImageOverlayTag;
+	add: #SBSCardImageTag;
+	add: #SBSCardLinkTag;
+	add: #SBSCardSubtitleTag;
+	add: #SBSCardTag;
+	add: #SBSCardTitleTag;
+	add: #SBSCarouselItemTag;
+	add: #SBSCarouselTag;
+	add: #SBSCDNDeploymentLibrary;
+	add: #SBSCDNDeploymentLibraryRTL;
+	add: #SBSCloseButtonTag;
+	add: #SBSCollapseTag;
+	add: #SBSComponent;
+	add: #SBSDeploymentLibrary;
+	add: #SBSDeploymentLibraryRTL;
+	add: #SBSDeploymentLibraryTest;
+	add: #SBSDevelopmentLibrary;
+	add: #SBSDevelopmentLibraryRTL;
+	add: #SBSDevelopmentLibraryTest;
+	add: #SBSDisplayHeadingTag;
+	add: #SBSDropdownHeaderTag;
+	add: #SBSDropdownItemTag;
+	add: #SBSDropdownMenuTag;
+	add: #SBSDropdownTag;
+	add: #SBSDropupTag;
+	add: #SBSEqualWidthColumnsOnMultipleRowsTag;
+	add: #SBSFileLibrary;
+	add: #SBSFormButtonTag;
+	add: #SBSFormGroupTag;
+	add: #SBSGenericTag;
+	add: #SBSHeadingTag;
+	add: #SBSHtmlCanvas;
+	add: #SBSImageTag;
+	add: #SBSInputGroupTag;
+	add: #SBSJumbotronTag;
+	add: #SBSLayoutColumnTag;
+	add: #SBSLayoutRowTag;
+	add: #SBSLayoutTag;
+	add: #SBSLinkButtonTag;
+	add: #SBSListGroupItemTag;
+	add: #SBSListGroupLinkedItemTag;
+	add: #SBSListGroupTag;
+	add: #SBSListItemTag;
+	add: #SBSModalDialogTag;
+	add: #SBSModalTag;
+	add: #SBSModalTitleTag;
+	add: #SBSNavbarBackground;
+	add: #SBSNavbarTogglerTag;
+	add: #SBSNavigationBarBrandTag;
+	add: #SBSNavigationBarCollapseTag;
+	add: #SBSNavigationBarTag;
+	add: #SBSNavigationItemTag;
+	add: #SBSNavigationLinkTag;
+	add: #SBSNavigationTabTag;
+	add: #SBSNavigationTag;
+	add: #SBSNavTag;
+	add: #SBSOutlineButtonTag;
+	add: #SBSPageItemTag;
+	add: #SBSPageLinkTag;
+	add: #SBSPaginationTag;
+	add: #SBSProgressBarTag;
+	add: #SBSProgressTag;
+	add: #SBSRootComponent;
+	add: #SBSRootComponentTest;
+	add: #SBSTabContentTag;
+	add: #SBSTabPaneTag;
+	add: #SBSTActiveStyled;
+	add: #SBSTColumnSelfAlignment;
+	add: #SBSTColumnSelfAlignmentTest;
+	add: #SBSTContentJustification;
+	add: #SBSTContentJustificationTest;
+	add: #SBSTContextualStyled;
+	add: #SBSTextColorTests;
+	add: #SBSTFlexboxContainer;
+	add: #SBSTOffsetting;
+	add: #SBSTOffsettingTest;
+	add: #SBSTRowItemAlignment;
+	add: #SBSTRowItemAlignmentTest;
+	add: #SBSTSizeStyled;
+	add: #SBSTVisualOrder;
+	add: #SBSTVisualOrderTest;
+	add: #SBSUnorderedListTag;
+	yourself.
+
+package methodNames
+	add: #WAFormInputTag -> #formControl;
+	add: #WAFormTag -> #inline;
+	add: #WAImageTag -> #centered;
+	add: #WAImageTag -> #circle;
+	add: #WAImageTag -> #floatLeft;
+	add: #WAImageTag -> #floatRight;
+	add: #WAImageTag -> #rounded;
+	add: #WAImageTag -> #thumbnail;
+	add: #WASelectTag -> #formControl;
+	add: #WATagBrush -> #dangerBackground;
+	add: #WATagBrush -> #dangerText;
+	add: #WATagBrush -> #darkBackground;
+	add: #WATagBrush -> #darkText;
+	add: #WATagBrush -> #displayFlex;
+	add: #WATagBrush -> #heading:;
+	add: #WATagBrush -> #infoBackground;
+	add: #WATagBrush -> #infoText;
+	add: #WATagBrush -> #lightBackground;
+	add: #WATagBrush -> #lightText;
+	add: #WATagBrush -> #lightTextWithDarkBackground;
+	add: #WATagBrush -> #marginBottom:;
+	add: #WATagBrush -> #marginLeft:;
+	add: #WATagBrush -> #marginLeftAndRight:;
+	add: #WATagBrush -> #marginRight:;
+	add: #WATagBrush -> #marginTop:;
+	add: #WATagBrush -> #marginTopAndBottom:;
+	add: #WATagBrush -> #mutedText;
+	add: #WATagBrush -> #paddingBottom:;
+	add: #WATagBrush -> #paddingLeft:;
+	add: #WATagBrush -> #paddingLeftAndRight:;
+	add: #WATagBrush -> #paddingRight:;
+	add: #WATagBrush -> #paddingTop:;
+	add: #WATagBrush -> #paddingTopAndBottom:;
+	add: #WATagBrush -> #primaryBackground;
+	add: #WATagBrush -> #primaryText;
+	add: #WATagBrush -> #secondaryBackground;
+	add: #WATagBrush -> #secondaryText;
+	add: #WATagBrush -> #successBackground;
+	add: #WATagBrush -> #successText;
+	add: #WATagBrush -> #textMuted;
+	add: #WATagBrush -> #warningBackground;
+	add: #WATagBrush -> #warningText;
+	add: #WATagBrush -> #whiteBackground;
+	add: #WATagBrush -> #whiteText;
+	add: #WATagBrush -> #whiteTextWithDarkBackground;
+	yourself.
+
+package binaryGlobalNames: (Set new
+	yourself).
+
+package globalAliases: (Set new
+	yourself).
+
+package setPrerequisites: #(
+	'..\Core\Object Arts\Dolphin\Base\Dolphin'
+	'..\Grease\Grease-Core'
+	'..\Portishead\Portishead-Traits'
+	'..\Seaside\Seaside\Seaside-Canvas'
+	'..\Seaside\Seaside\Seaside-Component'
+	'..\Seaside\Seaside\Seaside-Core'
+	'..\Seaside\Seaside\Seaside-Tests-Canvas'
+	'..\Seaside\Seaside\Seaside-Tools-Core'
+	'..\Core\Contributions\Camp Smalltalk\SUnit\SUnit').
+
+package!
+
+"Class Definitions"!
+
+Object subclass: #SBSNavbarBackground
+	instanceVariableNames: 'navigationBarTag modifier contextStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAFileMetadataLibrary subclass: #SBSFileLibrary
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSFileLibrary subclass: #SBSCDNDeploymentLibrary
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSFileLibrary subclass: #SBSDeploymentLibrary
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSFileLibrary subclass: #SBSDevelopmentLibrary
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSCDNDeploymentLibrary subclass: #SBSCDNDeploymentLibraryRTL
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSDeploymentLibrary subclass: #SBSDeploymentLibraryRTL
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSDevelopmentLibrary subclass: #SBSDevelopmentLibraryRTL
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WATagBrush subclass: #SBSGenericTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WATagBrush subclass: #SBSListItemTag
+	instanceVariableNames: 'activeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WATagBrush subclass: #SBSNavTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSAccordionBodyTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSAccordionCollapseTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSAccordionItemTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSAccordionTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSAlertTag
+	instanceVariableNames: 'modifier contextStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSBadgeTag
+	instanceVariableNames: 'modifier contextStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSButtonGroupTag
+	instanceVariableNames: 'sizeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCardBodyTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCardColumnsTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCardDeckTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCardFooterTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCardGroupTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCardHeaderTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCardImageOverlayTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCardTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCarouselItemTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCarouselTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSCollapseTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSDropdownMenuTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSDropdownTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSDropupTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSFormGroupTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSInputGroupTag
+	instanceVariableNames: 'sizeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSJumbotronTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSLayoutTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSModalDialogTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSModalTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSNavigationBarCollapseTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSProgressBarTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSProgressTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSTabContentTag
+	instanceVariableNames: 'sizeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSGenericTag subclass: #SBSTabPaneTag
+	instanceVariableNames: 'activeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSButtonGroupTag subclass: #SBSButtonGroupVerticalTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSButtonGroupTag subclass: #SBSButtonToolbarTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSLayoutTag subclass: #SBSEqualWidthColumnsOnMultipleRowsTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSLayoutTag subclass: #SBSLayoutColumnTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSLayoutTag subclass: #SBSLayoutRowTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSListItemTag subclass: #SBSBreadcrumbSectionTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSListItemTag subclass: #SBSListGroupItemTag
+	instanceVariableNames: 'modifier contextStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSListItemTag subclass: #SBSNavigationItemTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSListItemTag subclass: #SBSPageItemTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSNavTag subclass: #SBSNavigationBarTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSNavTag subclass: #SBSNavigationTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAAnchorTag subclass: #SBSAnchorTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSActionableBadgeTag
+	instanceVariableNames: 'modifier contextStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSAlertLinkTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSCardLinkTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSDropdownItemTag
+	instanceVariableNames: 'activeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSLinkButtonTag
+	instanceVariableNames: 'type modifier contextStyle sizeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSListGroupLinkedItemTag
+	instanceVariableNames: 'modifier contextStyle activeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSNavigationBarBrandTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSNavigationLinkTag
+	instanceVariableNames: 'activeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAnchorTag subclass: #SBSPageLinkTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAUnorderedListTag subclass: #SBSUnorderedListTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSUnorderedListTag subclass: #SBSListGroupTag
+	instanceVariableNames: 'sizeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSUnorderedListTag subclass: #SBSNavigationTabTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSUnorderedListTag subclass: #SBSPaginationTag
+	instanceVariableNames: 'sizeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAButtonTag subclass: #SBSButtonTag
+	instanceVariableNames: 'modifier contextStyle sizeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSButtonTag subclass: #SBSAccordionButtonTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSButtonTag subclass: #SBSCloseButtonTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSButtonTag subclass: #SBSFormButtonTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSButtonTag subclass: #SBSNavbarTogglerTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSButtonTag subclass: #SBSOutlineButtonTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAHeadingTag subclass: #SBSDisplayHeadingTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAHeadingTag subclass: #SBSHeadingTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSHeadingTag subclass: #SBSAccordionHeadingTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSHeadingTag subclass: #SBSAlertHeadingTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSHeadingTag subclass: #SBSCardTitleTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSHeadingTag subclass: #SBSDropdownHeaderTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSHeadingTag subclass: #SBSModalTitleTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSCardTitleTag subclass: #SBSCardSubtitleTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAImageTag subclass: #SBSImageTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSImageTag subclass: #SBSCardImageBottomTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSImageTag subclass: #SBSCardImageTag
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAComponent subclass: #SBSComponent
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSComponent subclass: #SBSRootComponent
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAHtmlCanvas subclass: #SBSHtmlCanvas
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+TestCase subclass: #SBSDeploymentLibraryTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+TestCase subclass: #SBSDevelopmentLibraryTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+TestCase subclass: #SBSRootComponentTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAAbstractCanvasBrushTest subclass: #SBSAbstractCanvasBrushTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAAbstractCanvasBrushTest subclass: #SBSTextColorTests
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAbstractCanvasBrushTest subclass: #SBSBackgroundColorTests
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAbstractCanvasBrushTest subclass: #SBSCanvasBrushTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAbstractCanvasBrushTest subclass: #SBSTColumnSelfAlignmentTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAbstractCanvasBrushTest subclass: #SBSTContentJustificationTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAbstractCanvasBrushTest subclass: #SBSTOffsettingTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAbstractCanvasBrushTest subclass: #SBSTRowItemAlignmentTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSAbstractCanvasBrushTest subclass: #SBSTVisualOrderTest
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTActiveStyled
+	instanceVariableNames: 'activeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTColumnSelfAlignment
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTContentJustification
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTContextualStyled
+	instanceVariableNames: 'modifier contextStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTFlexboxContainer
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTOffsetting
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTRowItemAlignment
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTSizeStyled
+	instanceVariableNames: 'sizeStyle'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Trait subclass: #SBSTVisualOrder
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+"Loose Methods"!
+
+!WAFormInputTag methodsFor!
+
+formControl	self class: 'form-control'! !
+
+!WAFormInputTag categoriesForMethods!
+formControl!*Bootstrap5/Core!public! !
+!
+
+!WAFormTag methodsFor!
+
+inline	self class: 'form-inline'! !
+
+!WAFormTag categoriesForMethods!
+inline!*Bootstrap5/Core!public! !
+!
+
+!WAImageTag methodsFor!
+
+centered	self class: 'mx-auto d-block'!
+
+circle	self class: 'rounded-circle'!
+
+floatLeft	self class: 'float-left'!
+
+floatRight	self class: 'float-right'!
+
+rounded	self class: 'rounded'!
+
+thumbnail	self class: 'img-thumbnail'! !
+
+!WAImageTag categoriesForMethods!
+centered!*Bootstrap5/Core!public! !
+circle!*Bootstrap5/Core!public! !
+floatLeft!*Bootstrap5/Core!public! !
+floatRight!*Bootstrap5/Core!public! !
+rounded!*Bootstrap5/Core!public! !
+thumbnail!*Bootstrap5/Core!public! !
+!
+
+!WASelectTag methodsFor!
+
+formControl	self class: 'form-control'! !
+
+!WASelectTag categoriesForMethods!
+formControl!*Bootstrap5/Core!public! !
+!
+
+!WATagBrush methodsFor!
+
+dangerBackground	self class: 'bg-danger'!
+
+dangerText	self class: 'text-danger'!
+
+darkBackground	self class: 'bg-dark'!
+
+darkText	self class: 'text-dark'!
+
+displayFlex	self class: 'd-flex'!
+
+heading: aLevel	self class: 'h', aLevel asString!
+
+infoBackground	self class: 'bg-info'!
+
+infoText	self class: 'text-info'!
+
+lightBackground	self class: 'bg-light'!
+
+lightText	self class: 'text-light'!
+
+lightTextWithDarkBackground	self		lightText;		darkBackground!
+
+marginBottom: aNumber	self class: 'mb-', aNumber asString!
+
+marginLeft: aNumber	self class: 'ml-', aNumber asString!
+
+marginLeftAndRight: aNumber	self class: 'mx-', aNumber asString!
+
+marginRight: aNumber	self class: 'mr-', aNumber asString!
+
+marginTop: aNumber	self class: 'mt-', aNumber asString!
+
+marginTopAndBottom: aNumber	self class: 'my-', aNumber asString!
+
+mutedText	self class: 'text-muted'!
+
+paddingBottom: aNumber	self class: 'pb-', aNumber asString!
+
+paddingLeft: aNumber	self class: 'pl-', aNumber asString!
+
+paddingLeftAndRight: aNumber	self class: 'px-', aNumber asString!
+
+paddingRight: aNumber	self class: 'pr-', aNumber asString!
+
+paddingTop: aNumber	self class: 'pt-', aNumber asString!
+
+paddingTopAndBottom: aNumber	self class: 'py-', aNumber asString!
+
+primaryBackground	self class: 'bg-primary'!
+
+primaryText	self class: 'text-primary'!
+
+secondaryBackground	self class: 'bg-secondary'!
+
+secondaryText	self class: 'text-secondary'!
+
+successBackground	self class: 'bg-success'!
+
+successText	self class: 'text-success'!
+
+textMuted	self class: 'text-muted'!
+
+warningBackground	self class: 'bg-warning'!
+
+warningText	self class: 'text-warning'!
+
+whiteBackground	self class: 'bg-white'!
+
+whiteText	self class: 'text-white'!
+
+whiteTextWithDarkBackground	self		whiteText;		darkBackground! !
+
+!WATagBrush categoriesForMethods!
+dangerBackground!*Bootstrap5/Core!public! !
+dangerText!*Bootstrap5/Core!public! !
+darkBackground!*Bootstrap5/Core!public! !
+darkText!*Bootstrap5/Core!public! !
+displayFlex!*Bootstrap5/Core!public! !
+heading:!*Bootstrap5/Core!public! !
+infoBackground!*Bootstrap5/Core!public! !
+infoText!*Bootstrap5/Core!public! !
+lightBackground!*Bootstrap5/Core!public! !
+lightText!*Bootstrap5/Core!public! !
+lightTextWithDarkBackground!*Bootstrap5/Core!public! !
+marginBottom:!*Bootstrap5/Core!public! !
+marginLeft:!*Bootstrap5/Core!public! !
+marginLeftAndRight:!*Bootstrap5/Core!public! !
+marginRight:!*Bootstrap5/Core!public! !
+marginTop:!*Bootstrap5/Core!public! !
+marginTopAndBottom:!*Bootstrap5/Core!public! !
+mutedText!*Bootstrap5/Core!public! !
+paddingBottom:!*Bootstrap5/Core!public! !
+paddingLeft:!*Bootstrap5/Core!public! !
+paddingLeftAndRight:!*Bootstrap5/Core!public! !
+paddingRight:!*Bootstrap5/Core!public! !
+paddingTop:!*Bootstrap5/Core!public! !
+paddingTopAndBottom:!*Bootstrap5/Core!public! !
+primaryBackground!*Bootstrap5/Core!public! !
+primaryText!*Bootstrap5/Core!public! !
+secondaryBackground!*Bootstrap5/Core!public! !
+secondaryText!*Bootstrap5/Core!public! !
+successBackground!*Bootstrap5/Core!public! !
+successText!*Bootstrap5/Core!public! !
+textMuted!*Bootstrap5/Core!public! !
+warningBackground!*Bootstrap5/Core!public! !
+warningText!*Bootstrap5/Core!public! !
+whiteBackground!*Bootstrap5/Core!public! !
+whiteText!*Bootstrap5/Core!public! !
+whiteTextWithDarkBackground!*Bootstrap5/Core!public! !
+!
+
+"End of package definition"!
+

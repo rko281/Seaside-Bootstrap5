@@ -1,0 +1,42 @@
+| package |
+package := Package name: 'Seaside-Bootstrap5'.
+package paxVersion: 1;
+	basicComment: 'Seaside-Bootstrap5 for Dolphin Smalltalk.
+Original Pharo version by Torsten Bergmann
+https://github.com/astares/Seaside-Bootstrap5
+
+Dolphin Smalltalk port created 17th April 2025.
+https://github.com/rko281/Seaside-Bootstrap5
+
+"Launch the Demo"
+(WAHttpServerAdaptor port: 8080) start.
+ShellLibrary default shellOpen: ''http://localhost:8080/bootstrap5'''.
+
+package basicScriptAt: #postinstall put: '(WAHttpServerAdaptor port: 8080) start.
+ShellLibrary default shellOpen: ''http://localhost:8080/bootstrap5'''.
+
+package binaryGlobalNames: (Set new
+	yourself).
+
+package globalAliases: (Set new
+	yourself).
+
+package setPrerequisites: #(
+	'Bootstrap5-Core-Tests'
+	'Bootstrap5-Examples').
+
+package setManualPrerequisites: #(
+	'Bootstrap5-Examples'
+	'Bootstrap5-Core-Tests').
+
+package!
+
+"Class Definitions"!
+
+
+"Global Aliases"!
+
+
+"Loose Methods"!
+
+"End of package definition"!

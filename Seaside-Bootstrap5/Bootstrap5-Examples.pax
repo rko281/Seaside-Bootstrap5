@@ -1,0 +1,225 @@
+﻿| package |
+package := Package name: 'Bootstrap5-Examples'.
+package paxVersion: 1;
+	basicComment: ''.
+
+package classNames
+	add: #ManifestBootstrap5Examples;
+	add: #SBSAccordionExample;
+	add: #SBSAlertExample;
+	add: #SBSBadgeExample;
+	add: #SBSBootstrapExample;
+	add: #SBSBreadcrumbExample;
+	add: #SBSButtonExample;
+	add: #SBSButtonGroupExample;
+	add: #SBSCardExample;
+	add: #SBSCarouselExample;
+	add: #SBSCollapseExample;
+	add: #SBSColorBackgroundExample;
+	add: #SBSColorExample;
+	add: #SBSDropdownsExample;
+	add: #SBSExampleBrowser;
+	add: #SBSExamplesHome;
+	add: #SBSExamplesLibrary;
+	add: #SBSFormExample;
+	add: #SBSFormFloatingExample;
+	add: #SBSInputGroupExample;
+	add: #SBSJumbotronExample;
+	add: #SBSListGroupExample;
+	add: #SBSModalExample;
+	add: #SBSNavbarExample;
+	add: #SBSNavsExample;
+	add: #SBSProgressBarExample;
+	add: #SBSTableExample;
+	add: #SBSTypographieExample;
+	yourself.
+
+package binaryGlobalNames: (Set new
+	yourself).
+
+package globalAliases: (Set new
+	yourself).
+
+package setPrerequisites: #(
+	'Bootstrap5-Core'
+	'..\Core\Object Arts\Dolphin\Base\Dolphin'
+	'..\Portishead\Portishead-Core'
+	'..\Portishead\Portishead-Pragmas'
+	'..\Seaside\Seaside\Seaside-Component'
+	'..\Seaside\Seaside\Seaside-Core'
+	'..\Seaside\Seaside\Seaside-Dolphin-Core').
+
+package!
+
+"Class Definitions"!
+
+WAFileLibrary subclass: #SBSExamplesLibrary
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAComponent subclass: #SBSBootstrapExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+WAComponent subclass: #SBSExampleBrowser
+	instanceVariableNames: 'currentExample'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSAccordionExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSAlertExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSBadgeExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSBreadcrumbExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSButtonExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSButtonGroupExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSCardExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSCarouselExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSCollapseExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSColorBackgroundExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSColorExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSDropdownsExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSFormExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSFormFloatingExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSInputGroupExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSJumbotronExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSListGroupExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSModalExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSNavbarExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSNavsExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSProgressBarExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSTableExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSBootstrapExample subclass: #SBSTypographieExample
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+SBSRootComponent subclass: #SBSExamplesHome
+	instanceVariableNames: 'browser displayIntro'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+PackageManifest subclass: #ManifestBootstrap5Examples
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+"End of package definition"!
+
