@@ -44,10 +44,14 @@ package setPrerequisites: #(
 	'Bootstrap5-Core'
 	'..\Core\Object Arts\Dolphin\Base\Dolphin'
 	'..\Portishead\Portishead-Core'
+	'..\Portishead\Portishead-Development'
 	'..\Portishead\Portishead-Pragmas'
 	'..\Seaside\Seaside\Seaside-Component'
 	'..\Seaside\Seaside\Seaside-Core'
 	'..\Seaside\Seaside\Seaside-Dolphin-Core').
+
+package setManualPrerequisites: #(
+	'Portishead-Development').
 
 package!
 

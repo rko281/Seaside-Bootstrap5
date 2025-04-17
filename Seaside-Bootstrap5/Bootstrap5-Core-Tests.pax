@@ -526,7 +526,15 @@ package globalAliases: (Set new
 
 package setPrerequisites: #(
 	'Bootstrap5-Core'
-	'..\Core\Object Arts\Dolphin\MVP\Base\Dolphin MVP Base').
+	'..\Core\Object Arts\Dolphin\MVP\Base\Dolphin MVP Base'
+	'..\Grease\Grease-Tests-Dolphin-Core'
+	'..\Seaside\Seaside\Seaside-Tests-Dolphin-Core'
+	'..\Seaside\Seaside\Seaside-Tests-Dolphin-Functional').
+
+package setManualPrerequisites: #(
+	'Grease-Tests-Dolphin-Core'
+	'Seaside-Tests-Dolphin-Core'
+	'Seaside-Tests-Dolphin-Functional').
 
 package!
 

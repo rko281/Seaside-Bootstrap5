@@ -172,13 +172,35 @@ package globalAliases: (Set new
 package setPrerequisites: #(
 	'..\Core\Object Arts\Dolphin\Base\Dolphin'
 	'..\Grease\Grease-Core'
+	'..\Seaside\Javascript\Javascript-Dolphin-Core'
+	'..\Seaside\JQuery\JQuery-UI'
 	'..\Portishead\Portishead-Traits'
+	'..\DolphinHttpServer\SeasideHTTPServerAdaptor\Seaside Http Server Adaptor'
 	'..\Seaside\Seaside\Seaside-Canvas'
 	'..\Seaside\Seaside\Seaside-Component'
 	'..\Seaside\Seaside\Seaside-Core'
+	'..\Seaside\Seaside\Seaside-Dolphin-Core'
+	'..\Seaside\Seaside\Seaside-Dolphin-Development'
+	'..\Seaside\Seaside\Seaside-Dolphin-Email'
+	'..\Seaside\Seaside\Seaside-Dolphin-Environment'
+	'..\Seaside\Seaside\Seaside-Dolphin-Extensions'
+	'..\Seaside\Seaside\Seaside-Dolphin-Flow'
+	'..\Seaside\Seaside\Seaside-Dolphin-JSON-Core'
 	'..\Seaside\Seaside\Seaside-Tests-Canvas'
 	'..\Seaside\Seaside\Seaside-Tools-Core'
 	'..\Core\Contributions\Camp Smalltalk\SUnit\SUnit').
+
+package setManualPrerequisites: #(
+	'Javascript-Dolphin-Core'
+	'JQuery-UI'
+	'Seaside Http Server Adaptor'
+	'Seaside-Dolphin-Core'
+	'Seaside-Dolphin-Development'
+	'Seaside-Dolphin-Email'
+	'Seaside-Dolphin-Environment'
+	'Seaside-Dolphin-Extensions'
+	'Seaside-Dolphin-Flow'
+	'Seaside-Dolphin-JSON-Core').
 
 package!
 
